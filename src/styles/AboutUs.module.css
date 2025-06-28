@@ -1,0 +1,442 @@
+.Banner {
+    background-image: url(C:\Users\sofis\Documents\olymposvillage\src\images\hotel.jpg);
+      height: 50vh;
+    width: 99vw;
+    margin-top: 20vh;
+    background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+      background-color: rgba(0, 0, 0, 0.25); /* oscurece con negro */
+  background-blend-mode: darken; /* mezcla la imagen con el color */
+}
+
+.Banner img {
+    height: 40vh;
+}
+
+.OlymposVillage {
+    display: flex;
+    background-color: white;
+    width: transform(99vw - 120px);
+    padding: 60px;
+}
+.Pool {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+
+}
+
+.ContentOlymposVillage {
+    width: 50vw;
+        margin-left: 50px;
+}
+
+.ContentOlymposVillage h3{
+    color: #D2AB80;
+    font-weight:500;
+    font-size: 1.2em;
+    margin-bottom: 0;
+
+}
+
+.ContentOlymposVillage h2 {
+    color: #809671;
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1.3em;
+    width: min-content;
+}
+
+
+.ContentOlymposVillage {
+     width: 80%;
+    color: #2D2D2D;
+    font-size: larger;
+}
+
+.StoneBuilding {
+    background-color: #B3B792;
+    display: flex;
+
+}
+.WrapperStoneBuilding {
+     margin-right: 2em;
+}
+.StoneBuildingImg {
+    width: 40vw;
+    height: 70vh;
+    display: block;
+    line-height: 0;
+    object-fit: cover;
+    object-position: center 80%;
+   /*  margin-left: 2em; */
+}
+.Kayak {
+    height: 40%;
+    width: 40vw;
+    object-fit: cover;
+    object-position: center 80%;
+}
+
+.Hiking {
+    height: 60%;
+    width: 40vw;
+    object-fit: cover;
+}
+.StoneBuilding {
+
+    text-align: right;
+    padding-left: 15%;
+   
+}
+.StoneBuilding h4 {
+    color: #725C3A;
+    font-weight:500;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 2em; 
+}
+.StoneBuilding h2 {
+    color: #E5E0D8;
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.3em;
+}
+.StoneBuilding p {
+    color: #2D2D2D;
+    font-size: larger;
+}
+
+.WhyBookWithUsBanner {
+    width: 99vw;
+    background-color: #D2AB80;
+    text-align: center;
+    justify-content: center;
+    padding: 5vh 0 5vh 0;
+}
+.WhyBookWithUsBanner h2 {
+    color: #E5E0D8;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 2px;
+
+
+}
+.WhyBookWithUsBanner h3 {
+    color: #725C3A;
+    font-weight:500;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.WhyBookWithUsGrid {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  grid-template-rows: repeat(2, auto);   /* 2 filas automáticas */
+  gap: 20px; /* espacio entre los elementos (opcional) */
+    background-color: white;
+    padding: 5vh 10vw 5vh 10vw;
+}
+
+.WhyBookWithUsCard {
+    background-color: white;
+    color: #725C3A;
+    width: 25vw;
+    text-align: center;
+    justify-self: center;
+}
+.WhyBookWithUsCard img {
+    height: 50px;
+}
+.WhyBookWithUsCard h4 {
+    margin: 1em 0 1em 0;
+    font-size: large;
+}
+
+.WhyBookWithUsCard p {
+    padding: 0 5vw 0 5vw;
+}
+
+.BannerUbication {
+    width: 99vw;
+    background-color: #B3B792;
+    text-align: center;
+    justify-content: center;
+    padding: 5vh 0 5vh 0;
+    
+}
+.BannerUbication h2 {
+    color: #E5E0D8;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 2px;
+
+
+}
+
+.SubtitleUbicationBanner {
+    display: flex;
+    justify-self: center;
+}
+
+.SubtitleUbicationBanner img {
+    width: 40px;
+    height: 40px;
+}
+.SubtitleUbicationBanner h3 {
+    color: #725C3A;
+    font-weight:500;
+    font-size: 1.5em;
+    margin: 0 0.5em 0 0.5em;
+
+}
+
+.WrapperNearPlaces {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    grid-template-rows: repeat(2, auto);   /* 2 filas automáticas */
+}
+
+
+.CardNearPlaces1 {
+    background-image: 
+        linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\center-of-activities.jpg) ;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.CardNearPlaces2 {
+    background-image: 
+        linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\adrasan.jpg) ;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.CardNearPlaces3 {
+    background-image: 
+        linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\adrasan-bay.jpg) ;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.CardNearPlaces4 {
+    background-image: 
+        linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\kumluca.jpeg) ;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.CardNearPlaces5 {
+    background-image: 
+        linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\ANTALYA.jpg) ;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.CardNearPlaces6 {
+    background-image: 
+        linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\airport.jpg) ;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+
+
+.WrapperNearPlaces h4 {
+    margin-top: 30vh;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+.WrapperNearPlaces p {
+    margin-top: 0;
+}
+.MapMarker {
+    color: black;
+}
+
+.PhotoBanner {
+    height: 10vh;
+    background-color: #B3B792;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+.PhotoBanner h2 {
+     color: #E5E0D8;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.TheVillagePhotos {
+    display: flex;
+    background-color: white;
+    padding: 2em;
+    width: calc(99vw - 4em);
+    justify-content: space-between;
+}
+
+.Column1 {
+    width: calc(50vw - 4em);
+    display: inline-block;
+}
+
+.ImgColumn1 {
+    width: calc(50vw - 2.7em);
+}
+.ImgColumn1:hover {
+    cursor: pointer;
+}
+
+.Column2 {
+     width: calc(50vw - 2.6em);
+}
+
+/* MODAL */
+.ModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    z-index: 9999; /* Asegura que esté por encima del resto del contenido */
+    object-fit: contain;
+}
+
+.ModalOverlay img {
+    max-width: 100%; /* Imagen nunca será más ancha que el contenedor */
+    max-height: 100%; /* Imagen nunca será más alta que el contenedor */
+    width: auto; /* Mantiene proporción al escalar horizontalmente */
+    height: auto; /* Mantiene proporción al escalar verticalmente */
+    border-radius: 5px; /* Opcional: esquinas redondeadas */
+    object-fit: contain; /* Asegura que toda la imagen se vea sin recortes */
+}
+
+.CloseModalBtn {
+    position:absolute;
+   top: 1em;
+   right: 1em;
+   font-size: 3em;
+   color: white;
+   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+   
+    .OlymposVillage {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+   
+    .Pool {
+        width: 80vw;
+        height: 40vh;
+    }
+    .ContentOlymposVillage {
+        margin: 0;
+        width: 100%;
+    }
+    .StoneBuilding {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+   
+    .WrapperStoneBuilding {
+        padding-left: 2em;
+        margin-bottom: 2em;
+    }
+    .StoneBuildingImg {
+        width: 100%;
+        height: 40vh;
+    }
+    .WhyBookWithUsBanner {
+        width: 100%;
+    }
+    .WhyBookWithUsBanner h2 {
+        font-size: 2em;
+    }
+    .WhyBookWithUsBanner h3 {
+        font-size: 1em;
+    }
+    .WhyBookWithUsGrid {
+        grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
+        grid-template-rows: repeat(3, auto);  
+    }
+    .WhyBookWithUsCard {
+        width: 100%;
+    }
+    .BannerUbication {
+        width: 100%;
+    }
+    .BannerUbication h2 {
+        font-size: 2em;
+    }
+    .BannerUbication h3 {
+        font-size: 1em;
+    }
+    .SubtitleUbicationBanner img {
+        height: 25px;
+        width: 25px;
+    }
+    .WrapperNearPlaces {
+        grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
+        grid-template-rows: repeat(3, auto);   /* 2 filas automáticas */
+    }
+}

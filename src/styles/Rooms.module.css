@@ -1,0 +1,63 @@
+.Wrapper {
+    margin-top: 20vh;
+    background-color: white;
+    width: 99vw;
+    padding-bottom: 2em;
+}
+.Card {
+    display: flex;
+    padding: 2em 2em 0 2em;
+}
+.FirstImage {
+    width: 40vw;
+    height: 50vh;
+    object-fit: cover;
+}
+.Content {
+    width: 45vw;
+    margin-left: 2em;
+    color: #2D2D2D;
+}
+.Content h4 {
+    color: #D2AB80;
+    font-weight:500;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.Content h3 {
+    color: #809671;
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1.3em;
+}
+
+.QuickLook {
+    margin-bottom: 1.5em;
+}
+.Block {
+    display: flex;
+
+}
+
+.SmallBlock {
+    display: flex;
+    color:#725C3A;
+    margin-right: 1em;
+}
+.SmallBlock img {
+    width: 1.5em;
+    height: 1.5em;
+}
+.SmallBlock p {
+    margin: 0 0.5em 1em 0.5em;
+}
+.Btn {
+    border-radius: 0;
+    background-color: #D2AB80;
+    color: #E5E0D8;
+    border: none;
+    outline: none; 
+    padding: 0.7em 4em 0.7em 4em;
+}

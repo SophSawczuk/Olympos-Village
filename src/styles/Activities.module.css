@@ -1,0 +1,108 @@
+.Banner {
+    margin-top: 20vh;
+    width: 100vw;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\lake.jpg);
+    background-position: center 50%;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5); /* oscurece con negro */
+/*   background-blend-mode: darken; /* mezcla la imagen con el color */ 
+    background-size: cover;
+
+}
+
+.Banner h1 {
+    letter-spacing: 5px;
+}
+
+.Activities {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 5 columnas iguales */
+  grid-template-rows: repeat(2, auto);   /* 2 filas automáticas */
+  gap: 1rem; /* espacio entre los elementos */
+  padding: 1rem 20vw 1rem 20vw;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+
+}
+.Card {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    color: #725C3A;
+    width: 70%;
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* sombra suave */
+}
+
+.Card h4 {
+    font-size: large;
+}
+.Antalya {
+
+    text-align: right;
+    padding-left: 15%;
+     background-color: #B3B792;
+    display: flex;
+   
+}
+.Antalya h4 {
+    color: #725C3A;
+    font-weight:500;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 2em; 
+}
+.Antalya h2 {
+    color: #E5E0D8;
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.3em;
+}
+.Antalya p {
+    color: #2D2D2D;
+    font-size: larger;
+}
+.AntalyaImg {
+    width: 40vw;
+    height: 70vh;
+    display: block;
+    line-height: 0;
+    object-fit: cover;
+    object-position: center 80%;
+    margin-left: 2em;
+}
+
+.WrapperImagenes {
+    display: flex;
+    width: 99vw;
+    height: 130vh;
+    align-items: flex-end;
+}
+
+.Columna1 {
+    width: 50%;
+    height: 130vh;
+    flex-direction: column;
+  justify-content: flex-end; /* alinea imágenes abajo */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+
+.ActivitieImg {
+    width: 100%;
+    flex-grow: 1; 
+    object-fit: cover;
+    object-position: center 80%;
+     min-height: 0;  
+}
+
+.ImageAdventure {
+    width: 100vw;
+}

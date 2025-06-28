@@ -1,0 +1,32 @@
+.Wrapper {
+    background-color: #E5E0D8;
+    text-align: center;
+    padding: 2em 10vw 0 10vw;
+    width: 79vw;
+}
+.Logo {
+    width: 12vw;
+}
+
+.WrapperNavbar {
+    padding: 0 10vw 0 10vw;
+    margin: 2em 0 2em 0;
+}
+
+.NavBar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.NavBar li {
+    color:#809671;
+    
+}
+
+.Divisor {
+    background-color:#809671;
+    height: 1px;
+    border: none;
+}
