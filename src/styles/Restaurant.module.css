@@ -4,12 +4,13 @@
     background-color: #E5E0D8;
     color: #D2AB80;
     text-align: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 20vh;
     align-items: center;
 }
+
 .Banner h1 {
     margin: 0 0 0.5em 0;
 }
@@ -17,14 +18,15 @@
 .Subtitle {
     display: flex;
 }
+
 .Subtitle img {
     height: 40px;
     width: 40px;
-    
+
 }
 
 .Subtitle h2 {
-    font-weight:500;
+    font-weight: 500;
     margin: 0 0 0 0.5em;
     align-self: center;
     color: #a88e6d;
@@ -33,29 +35,38 @@
 .Restaurant {
     background-color: #B3B792;
     display: flex;
+
 }
+
 .RestoImg {
-    width: 40vw;
+    width: 50vw;
     height: 70vh;
+    object-fit: cover;
+    display: block;
+    /* para ver la imagen */
 }
+
 .WrapperRestaurant {
     padding-left: 2em;
 }
+
 .WrapperRestaurant h4 {
     color: #725C3A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
     margin-top: 2em;
 }
+
 .WrapperRestaurant h2 {
     color: #E5E0D8;
     font-size: 3em;
     margin: 0;
     line-height: 1.3em;
 }
+
 .WrapperRestaurant p {
-    width: 80%;
+    width: 90%;
     color: #2D2D2D;
     font-size: larger;
 }
@@ -66,19 +77,22 @@
     padding: 0.7em 4em 0.7em 4em;
     color: #725C3A;
     border: none;
-    outline: none; 
+    outline: none;
+    margin-bottom: 2em;
 }
+
 .Attributes {
     display: flex;
     padding: 10vh 20vw 10vh 20vw;
     text-align: center;
     background-color: #E5E0D8;
-    
+
 }
+
 .Attribute {
     display: flex;
     flex-direction: column;
-    color:#725C3A;
+    color: #725C3A;
     padding: 0 2em 0 2em;
 }
 
@@ -87,6 +101,7 @@
     margin-bottom: 1em;
     font-size: large;
 }
+
 .Attribute p {
     margin: 0;
 }
@@ -101,7 +116,80 @@
 .FoodImages {
     width: 99vw;
     height: 50vh;
-    display:flex;
+    display: flex;
     overflow: hidden;
 }
 
+.FoodImages img {
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .Banner {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .Banner h1 {
+        font-size: 2em;
+    }
+
+    .Banner h2 {
+        font-size: 1em;
+    }
+
+    .Subtitle img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .Restaurant {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .RestoImg {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .WrapperRestaurant {
+        padding-bottom: 2em;
+        padding-right: 2em;
+    }
+
+    .WrapperRestaurant h2 {
+        font-size: 2em;
+    }
+
+    .WrapperRestaurant p {
+        width: 100%;
+    }
+
+    .WrapperRestaurant button {
+        width: 100%;
+    }
+
+    .Attributes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Attribute {
+        margin-bottom: 2em;
+    }
+
+    .FoodImages {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 100vw;
+    }
+
+    .FoodImages img {
+        width: 100%;
+    }
+}

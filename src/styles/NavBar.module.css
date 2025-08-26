@@ -3,6 +3,7 @@
     position: fixed;
     z-index: 2;
 }
+
 .Logo {
     height: 10vh;
     width: 100vw;
@@ -10,43 +11,62 @@
     text-align: center;
 
 }
+
 .Logo img {
     height: 8vh;
     padding-top: 1vh;
 }
+
 .NavBar {
     height: 10vh;
     width: 100vw;
     background-color: #809671;
-     text-align: center;
-     display: flex;
-     justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 ol {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin-right: 1em;
 }
+
 li {
     color: #E5E0D8;
-    
+
 }
+
+
+.Btn_Language button {
+    background-color: #E5E0D8;
+    color: #809671;
+    border-radius: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
 .Mobile {
     display: none;
 }
+
 @media (max-width: 1000px) {
     .NavBar {
         display: none;
     }
+
     .Mobile {
         display: flex;
         height: 10vh;
         background-color: #809671;
         align-items: center;
     }
-    
+
     .Menu_Burger {
         height: 40px;
         width: 40px;

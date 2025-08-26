@@ -3,15 +3,16 @@
 .Landing {
     width: 99vw;
     margin-top: 20vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\pool-hotel.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\pool-hotel.png);
     height: 80vh;
     object-fit: cover;
     background-size: cover;
     background-position: center 60%;
     background-repeat: no-repeat;
-     z-index: -1;
+    z-index: -1;
 }
-.LandingImage{
+
+.LandingImage {
     width: 100vw;
     height: 80vh;
     object-fit: cover;
@@ -20,13 +21,15 @@
     z-index: -1;
     filter: brightness(50%);
 }
+
 .Title {
     position: relative;
     z-index: 1;
     text-align: center;
-    padding-top: 30vh;
-    font-size: 6em;
-    letter-spacing: 15px;
+    padding-top: 35vh;
+    font-size: 3em;
+    /*    letter-spacing: 15px; */
+    letter-spacing: 5px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -35,7 +38,9 @@
 .TheVillage {
     background-color: #E5E0D8;
     display: flex;
+    width: calc(100vw - 1em);
 }
+
 .Village {
     width: 40vw;
 }
@@ -43,66 +48,75 @@
 .WrapperVillage {
     padding-left: 2em;
 }
+
 .WrapperVillage h4 {
     color: #D2AB80;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
     margin-top: 2em;
 }
+
 .WrapperVillage h2 {
     color: #809671;
     font-size: 3em;
     margin: 0;
     line-height: 1.3em;
+    width: min-content;
 }
+
 .WrapperVillage p {
     width: 80%;
     color: #2D2D2D;
     font-size: larger;
 }
+
 .WrapperVillage button {
     background-color: #D2AB80;
     border-radius: 0;
     padding: 0.7em 4em 0.7em 4em;
     color: #E5E0D8;
     border: none;
-    outline: none; 
+    outline: none;
 }
 
 /* --------ACCOMMODATION-------- */
 
 .Accommodation {
-    position:relative;
+    position: relative;
 }
+
 .AccommodationImages {
     display: flex;
     object-fit: cover;
 }
+
 .Accommodation img {
-    width: 33.333vw;
+    width: 33.33333vw;
     height: 80vh;
     object-fit: cover;
     filter: brightness(69%);
 }
+
 .Accommodation h2 {
     position: absolute;
-   top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-  font-size: 3em;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
 }
+
 .Accommodation button {
     position: absolute;
     top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #D2AB80;
     border-radius: 0;
     padding: 0.7em 6em 0.7em 6em;
     color: #E5E0D8;
     border: none;
-    outline: none; 
+    outline: none;
 }
 
 /* ----------RESTAURANT---------- */
@@ -111,27 +125,32 @@
     background-color: #E5E0D8;
     display: flex;
 }
+
 .RestoImg {
     width: 40vw;
     height: 70vh;
     object-fit: cover;
 }
+
 .WrapperRestaurant {
     padding-left: 2em;
 }
+
 .WrapperRestaurant h4 {
     color: #D2AB80;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
     margin-top: 2em;
 }
+
 .WrapperRestaurant h2 {
     color: #809671;
     font-size: 3em;
     margin: 0;
     line-height: 1.3em;
 }
+
 .WrapperRestaurant p {
     width: 80%;
     color: #2D2D2D;
@@ -144,7 +163,7 @@
     padding: 0.7em 4em 0.7em 4em;
     color: #E5E0D8;
     border: none;
-    outline: none; 
+    outline: none;
     margin-bottom: 2em;
 }
 
@@ -155,12 +174,14 @@
     display: flex;
 
 }
+
 .ActivitiesImg {
     width: 40vw;
     height: 70vh;
     display: block;
     line-height: 0;
 }
+
 .Kayak {
     height: 40%;
     width: 40vw;
@@ -173,36 +194,41 @@
     width: 40vw;
     object-fit: cover;
 }
+
 .WrapperActivities {
     padding-right: 2em;
     text-align: right;
     padding-left: 15%;
-   
+
 }
+
 .WrapperActivities h4 {
     color: #725C3A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
-    margin-top: 2em; 
+    margin-top: 2em;
 }
+
 .WrapperActivities h2 {
     color: #E5E0D8;
     font-size: 3em;
     margin: 0;
     line-height: 1.3em;
 }
+
 .WrapperActivities p {
     color: #2D2D2D;
     font-size: larger;
 }
+
 .WrapperActivities button {
     background-color: #725C3A;
     border-radius: 0;
     padding: 0.7em 4em 0.7em 4em;
     color: #E5E0D8;
     border: none;
-    outline: none; 
+    outline: none;
     margin-bottom: 2em;
 }
 
@@ -215,13 +241,15 @@
     padding-top: 15vh;
     padding-bottom: 20vh;
 }
+
 .Contact h2 {
     font-size: 3em;
 }
+
 .Contact p {
     font-size: 2em;
     font-style: italic;
-    font-weight:300;
+    font-weight: 300;
     text-decoration: none;
     color: #725C3A;
 }
@@ -230,65 +258,111 @@
     .Landing {
         width: 100vw;
         height: 80vh;
+        margin-top: 20vh;
+        margin-bottom: -10px;
     }
+
     .Title {
-        font-size: 3em;
-        letter-spacing: 8px;
+        font-size: 2em;
+        letter-spacing: 3px;
+
     }
+
     .TheVillage {
         display: flex;
         flex-direction: column;
         width: 100vw;
     }
+
     .Village {
         width: 100vw;
         height: 50vh;
         object-fit: cover;
     }
+
     .WrapperVillage {
         width: 100vw;
     }
+
     .WrapperVillage button {
         margin-bottom: 2em;
     }
+
+    .WrapperVillage h2 {
+        font-size: 2.5em;
+    }
+
     .Accommodation {
         width: 100vw;
     }
+
     .AccommodationImages {
         width: 100vw;
     }
+
     .AccommodationImages h2 {
         font-size: 2em;
     }
+
+    .AccommodationImages button {
+
+        width: 50vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .Restaurant {
         display: flex;
         flex-direction: column;
     }
+
+    .WrapperRestaurant h2 {
+        font-size: 2.5em;
+    }
+
     .RestoImg {
         width: 100vw;
         height: 40vh;
     }
+
     .Activities {
         display: flex;
         flex-direction: column;
     }
+
     .ActivitiesImg {
         width: 100vw;
         height: 30vh;
     }
+
+    .WrapperActivities h2 {
+        font-size: 2.5em;
+    }
+
     .Kayak {
         width: 50%;
         height: 100%;
     }
-    .Hiking{
+
+    .Hiking {
         width: 50%;
         height: 100%;
-    } 
+    }
+
     .Contact {
         height: 20vh;
+        padding: 2em 0 2em 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
     .Contact h2 {
-        margin-top: 0;
-        font-size: 3em;
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    .Contact p {
+        font-size: 1em;
     }
 }

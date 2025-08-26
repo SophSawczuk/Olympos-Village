@@ -1,17 +1,22 @@
 .Banner {
     margin-top: 20vh;
-    width: 100vw;
+    width: 99vw;
     height: 40vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\lake.jpg);
     background-position: center 50%;
-  background-repeat: no-repeat;
-  display: flex;
+    background-repeat: no-repeat;
+    display: flex;
     align-items: center;
     justify-content: center;
-      background-color: rgba(0, 0, 0, 0.5); /* oscurece con negro */
-/*   background-blend-mode: darken; /* mezcla la imagen con el color */ 
+    background-color: rgba(0, 0, 0, 0.5);
+    /* oscurece con negro */
+    /*   background-blend-mode: darken; /* mezcla la imagen con el color */
     background-size: cover;
 
+}
+
+.Wrapper {
+    margin-bottom: -1em;
 }
 
 .Banner h1 {
@@ -20,53 +25,100 @@
 
 .Activities {
     display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 5 columnas iguales */
-  grid-template-rows: repeat(2, auto);   /* 2 filas automáticas */
-  gap: 1rem; /* espacio entre los elementos */
-  padding: 1rem 20vw 1rem 20vw;
-  align-items: center;
-  justify-items: center;
-  background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    /* 5 columnas iguales */
+    grid-template-rows: repeat(1, auto);
+    /* 2 filas automáticas */
+    gap: 1rem;
+    /* espacio entre los elementos */
+    padding: 1rem 20vw 1rem 20vw;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    width: 59vw;
 
 }
+
 .Card {
     text-align: center;
     padding: 2em;
     background-color: white;
     color: #725C3A;
-    width: 70%;
+    width: 80%;
     margin-bottom: 1em;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); /* sombra suave */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 65vh;
+    /* sombra suave */
 }
 
 .Card h4 {
     font-size: large;
 }
+
+.Card_Kayak {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    color: #725C3A;
+    width: 80%;
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10%;
+}
+
+.Wrapper_Nueva_Card {
+    background-color: white;
+    padding-bottom: 2em;
+}
+
+.Nueva_Card {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    color: #725C3A;
+    width: 80%;
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    /* sombra suave */
+    margin-left: 10%;
+}
+
+.NuevaCard h4 {
+    font-size: large;
+}
+
+
+
 .Antalya {
 
     text-align: right;
     padding-left: 15%;
-     background-color: #B3B792;
+    background-color: #B3B792;
     display: flex;
-   
+    width: calc(99vw - 15%);
+
 }
+
 .Antalya h4 {
     color: #725C3A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
-    margin-top: 2em; 
+    margin-top: 2em;
 }
+
 .Antalya h2 {
     color: #E5E0D8;
     font-size: 3em;
     margin: 0;
     line-height: 1.3em;
 }
+
 .Antalya p {
     color: #2D2D2D;
     font-size: larger;
 }
+
 .AntalyaImg {
     width: 40vw;
     height: 70vh;
@@ -86,23 +138,103 @@
 
 .Columna1 {
     width: 50%;
-    height: 130vh;
+    height: 350vh;
     flex-direction: column;
-  justify-content: flex-end; /* alinea imágenes abajo */
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+    justify-content: flex-end;
+    /* alinea imágenes abajo */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 
 }
 
 .ActivitieImg {
     width: 100%;
-    flex-grow: 1; 
+    flex-grow: 1;
     object-fit: cover;
     object-position: center 80%;
-     min-height: 0;  
+    min-height: 0;
 }
 
 .ImageAdventure {
-    width: 100vw;
+    width: 99vw;
+}
+
+
+@media (max-width: 768px) {
+    .Banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .Banner h1 {
+        font-size: 2em;
+    }
+
+    .Activities {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        padding: 2em;
+        width: calc(100vw - 4em);
+
+    }
+
+    .Card {
+        height: fit-content;
+    }
+
+    .Wrapper_Nueva_Card {
+        width: calc(100vw - 4em);
+        padding: 2em;
+
+    }
+
+    .Card_Kayak {
+        margin-left: 0;
+    }
+
+    .Nueva_Card {
+        margin-left: 0;
+    }
+
+
+
+    .Antalya {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .WrapperAntalya {
+        padding-right: 2em;
+        padding-left: 2em;
+        width: calc(100vw - 4em);
+    }
+
+    .AntalyaImg {
+        margin: 0;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .WrapperImagenes {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .Columna1 {
+        width: 100%;
+
+    }
+
+    .ImageAdventure {
+        width: 100vw;
+        height: auto;
+    }
 }

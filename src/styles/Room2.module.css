@@ -1,0 +1,346 @@
+.Banner {
+    margin-top: 20vh;
+    width: 99vw;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\accommodation.jpg);
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* oscurece con negro */
+    /*   background-blend-mode: darken; /* mezcla la imagen con el color */
+    background-size: cover;
+}
+
+.Banner h1 {
+    letter-spacing: 5px;
+}
+
+.Content {
+    display: flex;
+    padding: 2em;
+    background-color: white;
+    width: calc(99vw - 4em);
+}
+
+.Gallery {
+    width: calc(50vw - 2em);
+}
+
+.MainImg {
+    width: 95%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center 60%;
+}
+
+.SecondaryImages {
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+}
+
+.SecondaryImg {
+    width: 33%;
+}
+
+.Description {
+    width: 45vw;
+    color: #2D2D2D;
+}
+
+
+.Description h3 {
+    color: #D2AB80;
+    font-size: 2.5em;
+    margin: 1em 0 0 0;
+    line-height: 1.3em;
+}
+
+.QuickLook {
+    margin-bottom: 1.5em;
+}
+
+.Block {
+    display: flex;
+
+}
+
+.SmallBlock {
+    display: flex;
+    color: #725C3A;
+    margin-right: 1em;
+}
+
+.SmallBlock img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.SmallBlock p {
+    margin: 0 0.5em 1em 0.5em;
+}
+
+.Btn {
+    border-radius: 0;
+    background-color: #D2AB80;
+    color: #E5E0D8;
+    border: none;
+    outline: none;
+    padding: 0.7em 4em 0.7em 4em;
+}
+
+.SecondBanner {
+    height: 10vh;
+    background-color: #B3B792;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    width: 99vw;
+}
+
+.SecondBanner h2 {
+    color: #E5E0D8;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 2px;
+
+}
+
+.Facilities {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 columnas iguales */
+    grid-template-rows: repeat(2, auto);
+    /* 2 filas automáticas */
+    gap: 1rem;
+    /* espacio entre los elementos */
+    padding: 1rem;
+    background-color: white;
+    padding: 8vh 10vw 3vh 10vw;
+    width: 79vw;
+}
+
+.Facility {
+    color: #725C3A;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.Facility img {
+    width: 50px;
+    height: 50px;
+}
+
+.Facility h4 {
+    margin: 0;
+}
+
+.Navigation {
+    display: flex;
+    height: 50vh;
+    text-align: center;
+}
+
+.NavAccommodation {
+    width: 49.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\hotel.jpg);
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.NavAccommodation h3 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    width: fit-content;
+    margin: 0;
+}
+
+
+.NavContact {
+    width: calc(49.5vw - 2em);
+    background-color: #E5D2B8;
+    color: #725C3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    height: 50vh;
+
+}
+
+.NavContact h3 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+}
+
+.NavContact p {
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+    text-decoration: none;
+    color: #725C3A;
+
+}
+
+/* MODAL */
+.ModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    z-index: 9999;
+    /* Asegura que esté por encima del resto del contenido */
+    object-fit: contain;
+}
+
+.ModalOverlay img {
+    max-width: 100%;
+    /* Imagen nunca será más ancha que el contenedor */
+    max-height: 100%;
+    /* Imagen nunca será más alta que el contenedor */
+    width: auto;
+    /* Mantiene proporción al escalar horizontalmente */
+    height: auto;
+    /* Mantiene proporción al escalar verticalmente */
+    border-radius: 5px;
+    /* Opcional: esquinas redondeadas */
+    object-fit: contain;
+    /* Asegura que toda la imagen se vea sin recortes */
+}
+
+.CloseModalBtn {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .Banner h1 {
+        font-size: 2em;
+    }
+
+    .Content {
+        display: flex;
+        flex-direction: column;
+        width: calc(100vw - 4em);
+    }
+
+    .Gallery {
+        width: calc(100vw - 4em);
+    }
+
+    .MainImg {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .SecondaryImages {
+        width: 100%;
+    }
+
+    .Description {
+        width: 100%;
+    }
+
+    .Btn {
+        width: 100%;
+    }
+
+    .SecondBanner {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .SecondBanner h2 {
+        font-size: 2em;
+    }
+
+    .Facilities {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .Navigation {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .NavAccommodation {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .NavAccommodation h3 {
+        font-size: 2em;
+    }
+
+    .NavContact {
+        width: 100%;
+        height: 40vh;
+        padding: 0;
+    }
+
+    .NavContact h3 {
+        font-size: 2em;
+    }
+
+    .NavContact p {
+        font-size: 1.2em;
+    }
+
+    .Backward {
+        z-index: 5;
+        position: absolute;
+        top: 48vh;
+        left: -8px;
+        height: 50px !important;
+        width: 50px !important;
+
+    }
+
+    .Foward {
+        z-index: 5;
+        position: absolute;
+        top: 48vh;
+        right: 10px;
+        height: 50px !important;
+        width: 50px !important;
+    }
+
+    .ModalImgMobile {
+        width: 100vw !important;
+        position: absolute;
+    }
+
+    .CloseModalBtn {
+        height: 50px !important;
+        width: 50px !important;
+        right: 20px;
+        top: 15px;
+    }
+}

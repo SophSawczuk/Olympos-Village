@@ -1,0 +1,401 @@
+{
+    "navbar": {
+        "home": "Ana Sayfa",
+        "about": "Likya Village",
+        "rooms": "Konaklama",
+        "activities": "Aktiviteler & Macera",
+        "restaurant": "Restoran",
+        "contact": "İletişim"
+    },
+    "home": {
+        "landing_title": "DOĞANIN İÇİNDE KONFOR",
+        "about_subtitle": "EKO OTEL",
+        "about_title": "Likya Village",
+        "about_description": "Orman içerisinde, modern ve konforlu ahşap evlerimizde konaklayan misafirlerimize restoranımızda sağlıklı ve lezzetli yemeklerle 4 yıldızlı hizmet sunuyoruz. İster Olympos Antik Kenti Milli Parkı’nı keşfedin, ister dünyanın en güzel plajlarından birinde güneşlenip yüzün, her zaman üst düzey misafirperverliğin tüm konforlarını yaşayın.",
+        "about_btn": "Daha fazla gör",
+        "accommodation_title": "Konaklama",
+        "accommodation_btn": "Hepsini gör",
+        "restaurant_subtitle": "RESTORAN",
+        "restaurant_title_1": "Türk &",
+        "restaurant_title_2": "Akdeniz",
+        "restaurant_description": "Tarihin ve doğal güzelliklerin her ziyaretçiyi büyülediği Olympos, Antalya’da, Time Café sizi Likya Köyü Oteli’nin huzurlu atmosferinde karşılıyor. Burada, Akdeniz mutfağının taze ve sağlıklı lezzetleri doğayla uyum içinde sunuluyor.",
+        "restaurant_btn": "Daha fazla gör",
+        "activities_subtitle": "KEŞFET & DENEYİMLE",
+        "activities_title_1": "Aktiviteler &",
+        "activities_title_2": "Macera",
+        "activities_description": "Olympos’u unutulmaz deneyimlerle keşfedin: antik kalıntıları ve gizli vadileri keşfetmekten, berrak plajlarda yüzmeye ve doğanın kalbinde açık hava sporlarının tadını çıkarmaya kadar.",
+        "activities_btn": "Daha fazla gör",
+        "contact_title": "Bize Ulaşın",
+        "contact_subtitle": "İletişime geçin ve yerinizi ayırtın"
+    },
+    "about": {
+        "landing_subtitle": "EKO OTEL",
+        "landing_title": "Likya Village",
+        "landing_description": "Bir hayalimiz vardı: Doğada olmak, lüks ama rahat ahşap evlerde yaşamak. Plaja yakın olmayı ve Akdeniz güneşinin tadını çıkarmayı hayal ettik. Bir görevimiz vardı: Sağlıklı yaşamak, bedenimizi, zihnimizi ve ruhumuzu keşfetmek ve yoga ile fiziksel ve zihinsel rahatlamak. Bahçemizden organik gıdalar yetiştirmek ve en yüksek kaliteli yemeklerin tadını çıkarmak. Tutkumuz vardı: Likya Yolu'nun antik patikalarında yürüyüş yapmak, Olympos doğal parkında ve dağlarda bisiklet sürmek ve teknede mola vermek. Doğanın sunduğu maceraların tadını çıkarmak. Hedefimiz vardı: Mutlu olmak, akşamları ateşin yanında oturmak ve müziğin tadını çıkarmak. Dünyanın dört bir yanından en iyilerini bir araya getirerek eşsiz bir konumda en yüksek kaliteyi sağladık. Hayallerimiz gerçek oldu ve sizleri bu deneyimi yaşamaya davet ediyoruz.",
+        "history_subtitle": "TARİHİMİZ",
+        "history_title_1": "Taş",
+        "history_title_2": "Bina",
+        "history_description": "Likya Köyü, Türkiye'nin güneyinde, Olympos antik kenti yakınlarında bulunan eşsiz bir ekolojik köydür. Eşsiz doğa, dünyanın en iyi plajlarından birine erişim sunmaktadır. Olympos, dünya çapından tatilciler için cazip bir destinasyondur. Olympos dünyanın en iyi on yürüyüş rotasından biri olarak bilinen antik Likya Yolu üzerindedir. Sakin ekolojik otel, çam ormanının ortasında açık yüzme havuzu ve lüks ahşap evler sunmaktadır. Yüksek tavanlı ve tümü klimalı bungalovlar geniş ve moderndir. Ayrıca deniz kanosu turu, dağ bisikleti turlari ve Likya yolu yürüyüşü gibi birçok aktivite sunmaktadır. Türk ve Akdeniz yemekleri, çoğunlukla bahçeden toplanan ve yerel organik çiftliklerden temin edilen malzemelerle yapılır ve otelin restoranında servis edilir. Vitamin bar, detoks için taze sebze ve meyve suları sağlar. Antalya, Olympos Köyü'ne 80 km uzaklıktadır ve Cirali plajı 3 km içindedir. Plaja gidiş-dönüş ücretsiz servis her saat başı düzenlenir.",
+        "first_banner_title": "Neden bizimle rezervasyon yapmalısınız?",
+        "first_banner_subtitle": "Mükemmel konaklamanız burada başlar",
+        "highlights": [
+            {
+                "id": "0",
+                "title": "Restoran",
+                "subtitle": "Taze ve yüksek kaliteli malzemelerle hazırlanan otantik Türk ve Akdeniz lezzetlerinin tadını çıkarın."
+            },
+            {
+                "id": "1",
+                "title": "Doğada Sanat ve Felsefe Buluşuyor",
+                "subtitle": "Sanat ve felsefenin ilham verici birleşimi için ekoköyümüze katılın. Müzik atölyeleri, resim ve çizim seansları, heykel ve seramik çalışmaları, fotoğrafçılık, film ve video eğitim programlarıyla yaratıcı ve entelektüel deneyimlere dalın. Doğayla uyum içinde öğrenmek, üretmek ve bağlantı kurmak için benzersiz bir fırsat."
+            },
+            {
+                "id": "2",
+                "title": "Açık Hava Sineması",
+                "subtitle": "Yıldızların altında unutulmaz film geceleri yaşayın—rahat koltuklarda dinlenin ve en sevdiğiniz filmleri dev ekranda izleyin."
+            },
+            {
+                "id": "3",
+                "title": "Gruplar ve Etkinlikler",
+                "subtitle": "Ekoköyümüz; kurumsal etkinlikler, aile buluşmaları, yoga kampları, seminerler ve diğer grup toplantıları için eşsiz bir ortam sunar. Doğa ile çevrili alanımızda esnek mekânlar, konforlu konaklama ve sıcak bir topluluk atmosferi sunarak her etkinliği unutulmaz kılıyoruz."
+            },
+            {
+                "id": "4",
+                "title": "Yoga Kampı",
+                "subtitle": "Yoga gruplarını ağırlıyor ve açık hava sporları düzenliyoruz. Doğanın ve pozitif enerjinin içinde bedeniniz ve zihninizle bağlantı kurun—rahatlamak ve iyi oluşunuzu yenilemek için mükemmel bir deneyim."
+            },
+            {
+                "id": "5",
+                "title": "Atölyeler",
+                "subtitle": "Sağlık, bilinçli yaşam ve uygulamalı felsefe hakkında uzmanlardan öğrenmek için atölyelerimize katılın, günlük alışkanlıklarınızı dönüştürün."
+            }
+        ],
+        "second_banner_title": "Mükemmel Konum",
+        "second_banner_subtitle": "Yerimizden mesafeleri kontrol edin",
+        "locations_olympos": [
+            {
+                "id": "0",
+                "title": "Olympos Plajı"
+            },
+            {
+                "id": "1",
+                "title": "Phaselis Antik Kenti"
+            },
+            {
+                "id": "2",
+                "title": "Adrasan Koyu"
+            },
+            {
+                "id": "3",
+                "title": "Çıralı"
+            },
+            {
+                "id": "4",
+                "title": "Olympos Antik Kenti"
+            },
+            {
+                "id": "5",
+                "title": "Antalya Havalimanı"
+            }
+        ],
+        "third_banner_title": "Fotoğraf Galerisi",
+        "third_banner_subtitle": "Bir göz atın",
+        "village": "Köy",
+        "restaurant": "Restoran",
+        "rooms": "Odalar",
+        "olympos": "Olympos Çevresi"
+    },
+    "rooms": [
+        {
+            "id": "0",
+            "subtitle": "EKO OTEL",
+            "title": "Villa Bungalov",
+            "description": "Bir yatak odalı ve bir loftlu ahşap ev.",
+            "double_beds": "1 çift kişilik yatak",
+            "single_beds": "1 tek kişilik yatak",
+            "people": "3 kişi",
+            "button": "Daha fazla gör"
+        },
+        {
+            "id": "1",
+            "subtitle": "EKO OTEL",
+            "title": "İki Yatak Odalı Bungalov",
+            "description": "İki yatak odalı ve bir loftlu ahşap ev.",
+            "double_beds": "1 çift kişilik yatak",
+            "single_beds": "3 tek kişilik yatak",
+            "people": "5 kişi",
+            "button": "Daha fazla gör"
+        },
+        {
+            "id": "2",
+            "subtitle": "EKO OTEL",
+            "title": "Havuz Kenarı Oda",
+            "description": "Havuz kenarında ahşap oda.",
+            "double_beds": "1 çift kişilik yatak",
+            "single_beds": "2 tek kişilik yatak",
+            "people": "2 kişi",
+            "button": "Daha fazla gör"
+        }
+    ],
+    "room_1": {
+        "title": "Villa Bungalov",
+        "description": "Rahat ve doğayı mükemmel şekilde birleştiren konforlu Finlandiya ahşap evimiz. Aileler düşünülerek tasarlanmış olup, bir yatak odası ve çocuklar veya ekstra misafirler için ideal bir loft içerir. İçeride, düz ekran TV, Wi-Fi, klima, ısıtma ve modern bir banyo gibi modern olanaklar bulunmaktadır. Finlandiya'dan ithal edilen bu özgün ahşap kabin, doğal cazibeyi modern konforla birleştirerek her yaş için sıcak ve davetkar bir konaklama sunar.",
+        "double_beds": "1 çift kişilik yatak",
+        "single_beds": "1 tek kişilik yatak",
+        "people": "3 kişi",
+        "button": "Şimdi Rezervasyon Yap",
+        "facilities_all": "Olanaklar",
+        "facilities": [
+            {
+                "id": "0",
+                "title": "Klima"
+            },
+            {
+                "id": "1",
+                "title": "Wi-Fi"
+            },
+            {
+                "id": "2",
+                "title": "Düz Ekran TV"
+            },
+            {
+                "id": "3",
+                "title": "Bluetooth Ses Sistemi"
+            },
+            {
+                "id": "4",
+                "title": "Isıtma"
+            },
+            {
+                "id": "5",
+                "title": "Gardırop"
+            },
+            {
+                "id": "6",
+                "title": "Mini bar"
+            },
+            {
+                "id": "7",
+                "title": "Modern Banyo"
+            },
+            {
+                "id": "8",
+                "title": "Balkonda Oturma Alanı"
+            },
+            {
+                "id": "9",
+                "title": "Loft"
+            }
+        ],
+        "see_all_1": "konaklama ",
+        "see_all_2": "alternatiflerimiz",
+        "contact": "Bize Ulaşın",
+        "contact_subtitle": "İletişime geçin ve yerinizi ayırtın"
+    },
+    "room_2": {
+        "title": "Çift Kişilik Bungalov",
+        "description": "Bu geniş Finlandiya ahşap evi, aileler veya küçük gruplar için idealdir ve iki yatak odası ile bir loft sayesinde 5 misafire kadar rahat konaklama sunar. Hem şıklık hem de konfor düşünülerek tasarlanmış olup, düz ekran TV, yüksek hızlı Wi-Fi, klima, ısıtma ve modern, tamamen donanımlı bir banyo içerir. Doğrudan Finlandiya'dan ithal edilen kabin, özgün ahşap ev cazibesini çağdaş olanaklarla birleştirir. Sıcak ve davetkar atmosferi, keşif dolu bir günün ardından dinlenmek için mükemmeldir; çocuklar ise loft alanı ve rahat, doğal çevreyi çok seveceklerdir.",
+        "double_beds": "1 çift kişilik yatak",
+        "single_beds": "3 tek kişilik yatak",
+        "people": "5 kişi",
+        "button": "Şimdi Rezervasyon Yap",
+        "facilities_all": "Olanaklar",
+        "facilities": [
+            {
+                "id": "0",
+                "title": "Klima"
+            },
+            {
+                "id": "1",
+                "title": "Wi-Fi"
+            },
+            {
+                "id": "2",
+                "title": "Düz Ekran TV"
+            },
+            {
+                "id": "3",
+                "title": "Bluetooth Ses Sistemi"
+            },
+            {
+                "id": "4",
+                "title": "Isıtma"
+            },
+            {
+                "id": "5",
+                "title": "Gardırop"
+            },
+            {
+                "id": "6",
+                "title": "Mini bar"
+            },
+            {
+                "id": "7",
+                "title": "Modern Banyo"
+            },
+            {
+                "id": "8",
+                "title": "Balkonda Oturma Alanı"
+            },
+            {
+                "id": "9",
+                "title": "Loft"
+            }
+        ],
+        "see_all_1": "konaklama ",
+        "see_all_2": "alternatiflerimiz",
+        "contact": "Bize Ulaşın",
+        "contact_subtitle": "İletişime geçin ve yerinizi ayırtın"
+    },
+    "room_3": {
+        "title": "Havuz Kenarı Oda",
+        "description": "Bu şirin ahşap tarzı odalar, havuz kenarında yer almakta olup, iki misafir için rahat ve kullanışlı bir konaklama sunar. Her oda çift kişilik yatak veya iki tek kişilik yatak ile donatılmış olup, düz ekran TV, Wi-Fi, klima, ısıtma ve modern bir banyo gibi modern konforlar içerir. Ahşap evlerimizle aynı yüksek kaliteli odun kullanılarak inşa edilen bu odalar, doğal sıcaklığı modern olanaklarla birleştirerek çiftler veya arkadaşlar için samimi ve davetkar bir dinlenme alanı yaratır.",
+        "description_1": "Fotoğraflar yakında eklenecek.",
+        "double_beds": "1 çift kişilik yatak",
+        "single_beds": "2 tek kişilik yatak",
+        "people": "2 kişi",
+        "button": "Şimdi Rezervasyon Yap",
+        "facilities_all": "Olanaklar",
+        "facilities": [
+            {
+                "id": "0",
+                "title": "Klima"
+            },
+            {
+                "id": "1",
+                "title": "Wi-Fi"
+            },
+            {
+                "id": "2",
+                "title": "Düz Ekran TV"
+            },
+            {
+                "id": "3",
+                "title": "Bluetooth Ses Sistemi"
+            },
+            {
+                "id": "4",
+                "title": "Isıtma"
+            },
+            {
+                "id": "5",
+                "title": "Gardırop"
+            },
+            {
+                "id": "6",
+                "title": "Mini bar"
+            },
+            {
+                "id": "7",
+                "title": "Modern Banyo"
+            },
+            {
+                "id": "8",
+                "title": "Balkonda Oturma Alanı"
+            },
+            {
+                "id": "9",
+                "title": "Havuz Kenarı"
+            }
+        ],
+        "see_all_1": "konaklama ",
+        "see_all_2": "alternatiflerimiz",
+        "contact": "Bize Ulaşın",
+        "contact_subtitle": "İletişime geçin ve yerinizi ayırtın"
+    },
+    "activities": {
+        "title": "Aktiviteler & Macera",
+        "tours": [
+            {
+                "id": "0",
+                "title": "Doğa Yürüyüşü",
+                "description": "Dünyanın en güzel 10 yürüyüş rotasından biri olarak seçilen Likya Yolu'nda, Karaöz'den Gelidonya Feneri'ne yürüyüş yapıyoruz. Manzaralı bir çay/kahve ve kek molasının ardından aynı güzergah üzerinden geri dönüyoruz. Toplam mesafe 7 km."
+            },
+            {
+                "id": "1",
+                "title": "Dağ Bisikleti",
+                "description": "Olympos’un kalbinde, kıvrımlı orman yolları, tepeler ve manzaralı alanlarda dağ bisikleti heyecanını yaşayın."
+            },
+            {
+                "id": "2",
+                "title": "Tekne Turu",
+                "description": "Yakında eklenecek"
+            },
+            {
+                "id": "3",
+                "title": "Deniz Kayağı",
+                "description": "LikyaVillage'de kahvaltının ardından Olympos antik kentinden geçerek Wilderness System uzun mesafe deniz kayakları ile Ceneviz Koyu'na ulaşıyoruz ve burada yüzme molası veriyoruz. Daha sonra diğer doğal harika Sazak Koyu’na doğru kürek çekmeye devam ediyoruz. Sazak Koyu’nda durduktan sonra Olympos’a geri dönüyoruz. Aynı rotayı Adrasan’a devam etmek ve minibüsle dönmek isteyen gruplar için bu seçenek de sunulmaktadır. Tüm turlar rehber ve destek teknesi eşliğinde yapılır."
+            },
+            {
+                "id": "4",
+                "title": "Phaselis Antik Kenti",
+                "description_1": "Phaselis, Likya Birliği’nin en önemli şehirlerinden biriydi. Roma kalıntıları iyi korunmuş ve antik kentin üç limanı bugün plaj olarak kullanılıyor. Phaselis, doğal bir koy ve tarihi kalıntıları ile bölgedeki en popüler günlük gezi rotalarından biridir. Phaselis kelimesi Eski Yunanca’da 'Tanrılar tarafından korunan yer' anlamına gelir. Phaselis’teki kalıntıların çoğu Roma ve Bizans dönemine aittir.",
+                "description_2": "Antik kentte göreceğiniz farklı bölümler: Koruma Duvarları: Şehir, denizden korsan saldırılarına karşı korunur. Su Kanalları: Uzunluğu yaklaşık 450 m. Phaselis’te bugüne kadar ayakta kalan en eski yapılardır. Hadrian Kemeri: Liman sokağı, orta ve güney limanlarını birbirine bağlar. Hadrian Kemeri, M.S. 131'de Roma İmparatoru Hadrian’ı karşılamak için inşa edilmiştir. Kemerdeki destek ayakları hâlâ ana caddede durmaktadır. Güney limanın yanında bir agora da bulunmaktadır. Phaselis’te iki Roma hamam kompleksi vardır, biri küçük diğeri büyük. Her iki kompleks de 3. yüzyıla tarihlidir ve hypocaust sistemi kullanılmıştır. Latrina: Küçük hamamın kuzeyinde yer alır ve 3. yüzyıla aittir. Zemin mozaiklerle kaplıdır.",
+                "description_3": "Tiyatro: Küçük tiyatro, tipik Hellenistik Dönem tiyatrosu özelliğindedir. Kalıntılardan sahne binasının Roma döneminde eklendiği anlaşılmaktadır. Hellenistik tiyatro 2. yüzyıla dayanır, ancak buradan önce de bir tiyatro olma olasılığı yüksektir. Yaklaşık 1.500 seyirci kapasitesine sahiptir. Bazilika: Tiyatronun karşısında, Bizans dönemine ait küçük bir bazilika kalıntısını görebilirsiniz. Buradaki bazilikanın bir cemaat mi yoksa piskoposluk kilisesi mi olduğu tartışmalıdır. Akropolis: Şehrin baş tanrıçası Athena, Savaş ve Bilgelik Tanrıçasıydı. Athena Tapınağı ve henüz bulunmamış diğer bazı önemli yapılar bugün akropolis tepesinde yer aldığı düşünülmektedir."
+            },
+            {
+                "id": "5",
+                "title": "Phaselis Plajı",
+                "description_1": "Phaselis Plajı, sığ ve sıcak suyu sayesinde çocuklu aileler için mükemmel bir seçenektir. 3 farklı koy vardır: Kuzey Koyu, Antik Koy ve Güney Koyu. Coğrafyacı Strabon bu limanlardan bahsetmiştir. Buradaki üç plaj antik dönemde liman olarak kullanılmıştır. Dalış yaparsanız su altındaki kalıntıları görebilirsiniz. Phaselis için paket yaparken snorkel ve maske getirdiğinizden emin olun. Kuzey Koyu: İlk göreceğiniz plajdır ve genellikle diğer iki plaja göre daha az kalabalıktır. Çakıllı denizi vardır ve genellikle dalgalar daha fazladır. Orta Koy: En küçük koydur ve en az dalgalıdır. Sığ su nedeniyle en güvenli koydur. Güney Koy: Tek kumlu plajdır ve bu nedenle genellikle en kalabalık olandır.",
+                "description_2": "LikyaVillage'den Phaselis antik kentine: 25 km, 30 dakika"
+            },
+            {
+                "id": "6",
+                "title": "LikyaVillage'den Demre, Myra ve Kekova Batık Şehir Turu",
+                "description_1": "Aziz Nikola Anıt Müzesi: Aziz Nikola Kilisesi, resmi olarak Aziz Nikola Anıt Müzesi olarak da bilinir, Demre’de bulunur ve Noel Baba olduğuna inanılan Aziz Nikola’nın öldüğü yerde inşa edilmiştir. Noel Baba’nın ölümünden sonra bir süre burada bulunduğu ve daha sonra kemiklerinin İtalyan denizciler tarafından Bari’ye götürüldüğü düşünülmektedir.",
+                "description_2": "Noel Baba, çocuklara Noel arifesinde hediyeler bıraktığına inanılan efsanevi bir figürdür. Kökeni 4. yüzyılda Demre’de (eski adıyla Myra) yaşamış Hristiyan aziz Nicholas’a dayanır. Efsaneye göre Noel Baba, karısı ile birlikte Kuzey Kutbu’nda yaşamaktadır.",
+                "description_3": "Bugünkü Demre ilçesi ve çevresinde yer alan Myra Antik Kenti, aynı adı taşıyan ova üzerine kurulmuştur. Şehir, Myros Nehri’nin batısında denize bağlanan bir kanal içeriyordu. Andriake (Çayağzı) Limanı, bölge için deniz ticareti ve ulaşımı yönetiyordu. Myra, özellikle Likya kaya mezarları, Roma tiyatrosu ve Bizans dönemi Aziz Nikola Kilisesi (Noel Baba) ile ünlüdür.",
+                "description_4": "Kaya mezarları, Likya yazıtları ve paralar, Myra'nın en az M.Ö. 5. yüzyıldan beri var olduğunu göstermektedir. Strabon’a göre, Myra Likya Birliği’nin altı büyük şehrinden biriydi ve Likya yazıtlarında Myrrh olarak geçmektedir.",
+                "description_5": "2. yüzyıl, Myra için büyük gelişme dönemiydi. Likya Birliği’nin metropolü olarak, birçok bina zengin Likyalılar’ın desteği ile inşa edilmiş ve restore edilmiştir. Bizans döneminde Myra, dini ve idari olarak öncü bir şehir haline gelmiştir. Günümüzdeki ünü, 4. yüzyılda şehir piskoposu olan ve ölümünden sonra aziz ilan edilen Aziz Nikola’ya borçludur.",
+                "description_6": "Kekova Batık Şehir – Batık Şehir, Kekova Adası kıyıları boyunca yer almaktadır. Depremler nedeniyle su altına gömülen tarihi Likya şehirlerinden biridir ve kalıntıları hâlâ görülebilmektedir.",
+                "description_7": "Türkiye’nin en güzel koy ve koylarındaki çekiciliğe rağmen, Kaleköy karşısındaki antik Batık Şehir, Kekova bölgesine en çok ziyaretçiyi çeker; her yıl binlerce kişi gizemli su altı alanını görmek için gelir. Depremden önce gelişen bir yerleşim olan bu antik şehir, maalesef 2.000 yıl önce kaderini belirlemiş, şimdi suya inen taş bir merdiven, bu antik şehrin var olduğuna dair tek somut göstergelerden biridir."
+            }
+        ],
+        "tours_title": "ANTİK ŞEHİR TURLARI",
+        "about_1": "Keşfet &",
+        "about_2": "Keşfet",
+        "about_description": "Macera dolu aktivitelerimizle Olympos ve çevresinin nefes kesici manzaralarını keşfedin. Antik kalıntılar ve yemyeşil ormanlarda rehberli trekking, bakir koylarda kano, manzaralı yollarda dağ bisikleti ve doğada canlandırıcı yoga seansları dahil her deneyim, sizi doğayla bütünleştirecek şekilde tasarlanmıştır. Adrenalin, rahatlama veya her ikisinin bir karışımını arıyor olun, aktivitelerimiz her seviyedeki maceraperest için unutulmaz anlar sunar."
+    },
+    "restaurant": {
+        "subtitle": "TÜRK VE AKDENİZ MUTFAĞI",
+        "about_subtitle": "RESTORAN",
+        "about_title_1": "Türk &",
+        "about_title_2": "Akdeniz",
+        "description_1": "Tarih ve doğal güzellikleriyle her ziyaretçiyi büyüleyen Antalya, Olympos’ta, Time Café sizi Likya Village Hotel’in huzurlu atmosferinde ağırlıyor. Burada, Akdeniz mutfağının taze ve sağlıklı lezzetleri doğayla uyum içinde sunulmaktadır.",
+        "description_2": "Zeytinyağlı yemekler, taze otlarla hazırlanan yöresel mezeler, kendi özel tariflerimiz ve Ege ile Akdeniz deniz ürünlerinden ilham alan ana yemekler… Hepsi günlük, yerel kaynaklı malzemelerle özenle hazırlanır. Gün ışığıyla başlayan zengin kahvaltımızdan gün boyunca servis edilen hafif atıştırmalıklar, sandviçler ve salatalara, romantik akşam yemeklerine kadar, her an doğal ve özenli bir lezzet yolculuğu vaat ediyoruz.",
+        "description_3": "Time Café sadece bir restoran değil; Olympos’un büyüleyici doğasında zamanı yavaşlatan, benzersiz bir deneyim sunan bir mekandır. Ağaçlar arasında, havuz kenarında, sizi bu özel ortamda ağırlamaktan mutluluk duyarız.",
+        "button": "Menüyü Gör",
+        "highlight_1_title": "Sağlıklı",
+        "highlight_1_subtitle": "Taze ve doğal malzemelerle hazırlanmış sağlıklı yemekler.",
+        "highlight_2_title": "Geleneksel",
+        "highlight_2_subtitle": "Bölgenin zengin lezzetlerinden ilham alan özgün tarifler.",
+        "highlight_3_title": "Doğa",
+        "highlight_3_subtitle": "Çam ağaçları ve Olympos’un büyüleyici doğasıyla çevrili.",
+        "menu": "src/assets/Turkish - Menu Time Cafe.pdf"
+    },
+    "contact": {
+        "title": "Bize Ulaşın",
+        "highlight_1_title": "Bizi Arayın",
+        "highlight_1_subtitle": "Genel sorularınız için arayın: +902428921088",
+        "highlight_2_title": "Bize E-posta Gönderin",
+        "highlight_2_subtitle": "likyavillage@gmail.com",
+        "highlight_3_title": "WhatsApp'tan Ulaşın",
+        "highlight_3_subtitle": "+905336550606",
+        "title_form": "Bize mesajınızı gönderin",
+        "subtitle_form": "Aşağıdaki formu kullanarak bizimle iletişime geçmekten çekinmeyin. En kısa sürede size yanıt vereceğiz.",
+        "name": "İsim",
+        "email": "E-posta adresi",
+        "phone": "Telefon numarası",
+        "message": "Mesajınız",
+        "message_example": "Mesajınızı buraya bırakın...",
+        "btn": "Gönder"
+    },
+    "footer": {
+        "address": "Adres",
+        "contact": "İletişim",
+        "book": "Rezervasyon",
+        "book_subtitle": "Unutulmaz bir konaklama için yerinizi ayırtın!",
+        "btn": "Rezervasyon Yap",
+        "privacy": "Gizlilik Politikası"
+    }
+}

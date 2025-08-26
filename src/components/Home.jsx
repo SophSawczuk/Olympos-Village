@@ -9,58 +9,60 @@ import kayak from "../images/kayak.jpg"
 import hiking from "../images/hiking.jpg"
 /* --------------------- */
 import { Link } from "react-router-dom"
+import { useTranslation } from 'react-i18next'
 
 export default function Home() {
-    return(
+    const { t } = useTranslation()
+
+    return (
         <div>
             <div className={style.Landing}>
-                <h1 className={style.Title}>RELAXURY</h1>
+                <h1 className={style.Title}>{t("home.landing_title")} </h1>
             </div>
             <div className={style.TheVillage}>
-                <img src={hotel} alt="Hotel in Olympos, Antyala" className={style.Village}/>
+                <img src={hotel} alt="Hotel in Olympos, Antyala" className={style.Village} />
                 <div className={style.WrapperVillage}>
-                    <h4>RELAXURY HOTEL</h4>
-                    <h2>Olympos</h2>
-                    <h2>Village</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi repellendus, earum aliquid nam adipisci, unde voluptatibus deleniti, distinctio doloribus quos necessitatibus iure facilis esse? Quod, iure blanditiis. Omnis, magni?</p>
-                    <Link to="/about"><button>See more</button></Link>
+                    <h4>{t("home.about_subtitle")}</h4>
+                    <h2>{t("home.about_title")}</h2>
+                    <p>{t("home.about_description")}</p>
+                    <Link to="/about"><button>{t("home.about_btn")}</button></Link>
                 </div>
             </div>
             <div className={style.Accommodation}>
                 <div className={style.AccommodationImages}>
-                    <img src={accomodation}/>
-                    <img src={village}/>
-                    <img src={doublebed}/>
-                    <h2>Accommodation</h2>
-                    <Link to="/rooms"><button>See all</button></Link>
-                </div>            
+                    <img src={accomodation} />
+                    <img src={village} />
+                    <img src={doublebed} />
+                    <h2>{t("home.accommodation_title")}</h2>
+                    <Link to="/rooms"><button>{t("home.accommodation_btn")}</button></Link>
+                </div>
             </div>
             <div className={style.Restaurant}>
-                <img src={restaurant} alt="Restaurant in Olympos, Antyala" className={style.RestoImg}/>
+                <img src={restaurant} alt="Restaurant in Olympos, Antyala" className={style.RestoImg} />
                 <div className={style.WrapperRestaurant}>
-                    <h4>RESTAURANT</h4>
-                    <h2>Turkish &</h2>
-                    <h2>Mediterranean</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi repellendus, earum aliquid nam adipisci, unde voluptatibus deleniti, distinctio doloribus quos necessitatibus iure facilis esse? Quod, iure blanditiis. Omnis, magni?</p>
-                    <Link to="/restaurant"><button>See more</button></Link>
+                    <h4>{t("home.restaurant_subtitle")}</h4>
+                    <h2>{t("home.restaurant_title_1")}</h2>
+                    <h2>{t("home.restaurant_title_2")}</h2>
+                    <p>{t("home.restaurant_description")}</p>
+                    <Link to="/restaurant"><button>{t("home.restaurant_btn")}</button></Link>
                 </div>
             </div>
             <div className={style.Activities}>
                 <div className={style.WrapperActivities}>
-                    <h4>EXPLORE & DISCOVER</h4>
-                    <h2>Activities &</h2>
-                    <h2>Adventure</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi repellendus, earum aliquid nam adipisci, unde voluptatibus deleniti, distinctio doloribus quos necessitatibus iure facilis esse? Quod, iure blanditiis. Omnis, magni?</p>
-                    <Link to="/activities"><button>See more</button></Link>
+                    <h4>{t("home.activities_subtitle")}</h4>
+                    <h2>{t("home.activities_title_1")}</h2>
+                    <h2>{t("home.activities_title_2")}</h2>
+                    <p>{t("home.activities_description")}</p>
+                    <Link to="/activities"><button>{t("home.activities_btn")}</button></Link>
                 </div>
                 <div className={style.ActivitiesImg}>
-                    <img src={kayak} alt="Kayak in Olympos, Antyala" className={style.Kayak}/>
+                    <img src={kayak} alt="Kayak in Olympos, Antyala" className={style.Kayak} />
                     <img src={hiking} alt="Hiking in Olympos, Antyala" className={style.Hiking} />
-                </div>           
+                </div>
             </div>
             <Link to="/contact"><div className={style.Contact}>
-                <h2>Contact Us</h2>
-                <p>Get in touch and reserve your spot</p>
+                <h2>{t("home.contact_title")}</h2>
+                <p>{t("home.contact_subtitle")}</p>
             </div></Link>
         </div>
     )

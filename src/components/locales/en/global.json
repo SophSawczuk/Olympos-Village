@@ -1,0 +1,401 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "Likya Village",
+        "rooms": "Accommodation",
+        "activities": "Activities & Adventure",
+        "restaurant": "Restaurant",
+        "contact": "Contact"
+    },
+    "home": {
+        "landing_title": "COMFORT IN THE NATURE",
+        "about_subtitle": "ECO HOTEL",
+        "about_title": "Likya Village",
+        "about_description": "In a forest, we offer to our guests staying in our modern, comfortable log houses a 4-star service with healthy and delicious meals in our restaurant. Whether you’re exploring the Olympos Ancient City National Park, or sunbathing/swimming at one of the most beautiful beach in the world, keep all the comforts of high-end hospitality.",
+        "about_btn": "See more",
+        "accommodation_title": "Accommodation",
+        "accommodation_btn": "See all",
+        "restaurant_subtitle": "RESTAURANT",
+        "restaurant_title_1": "Turkish &",
+        "restaurant_title_2": "Mediterranean",
+        "restaurant_description": "In Olympos, Antalya, where history and natural beauty captivate every visitor, Time Café welcomes you within the peaceful atmosphere of Likya Village Hotel. Here, the fresh and healthy flavors of Mediterranean cuisine are served in harmony with nature.",
+        "restaurant_btn": "See more",
+        "activities_subtitle": "EXPLORE & DISCOVER",
+        "activities_title_1": "Activities &",
+        "activities_title_2": "Adventure",
+        "activities_description": "Discover Olympos through unforgettable experiences: from exploring ancient ruins and hidden valleys, to swimming in crystal-clear beaches and enjoying outdoor sports in the heart of nature.",
+        "activities_btn": "See more",
+        "contact_title": "Contact Us",
+        "contact_subtitle": "Get in touch and reserve your spot"
+    },
+    "about": {
+        "landing_subtitle": "ECO HOTEL",
+        "landing_title": "Likya Village",
+        "landing_description": "We had a dream: to be in the nature , live in luxury but cozy log houses.Dream of being close to the beach and enjoying the Mediterranean sun. We had a mission: To live healthy, explore our body , mind and soul and search for a unity through yoga. We had a mission to grow organic food from our garden and enjoy the highest quality of food. We had a passion: to hike along the ancient paths of Lycian way , to ride a bike in the Olympos natural park and mountains and take a break on the boat.We had a passion to be active and enjoy the adventures nature offers us. We had a goal: to be happy , sit by the fire in the evening enjoy the music . We brought the best together from across the World to achieve the highest quality in a unique location .Our dreams has came true and we would like to invite you to live this experience.",
+        "history_subtitle": "OUR HISTORY",
+        "history_title_1": "The Stone",
+        "history_title_2": "Building",
+        "history_description": "Lykianvillage is a unique ecological village ,located in outskirts of the ancient city of Olympos in Southern Turkey. The unique nature has an accessibility to one of the best beaches in the world. Olympos is an attracting destination for holiday makers from across the globe. Olymposvillage is also on the pathway of ancient Lycian Way which is known as one of the top ten hiking routes in the world. The peaceful eco hotel offers an outdoor pool and luxury log houses in the middle of pine forest. Featuring high ceilings , all air conditioned bungalows are spacious and modern. Besides, it offers many activities including sea kayaking,mountain biking , horse riding ,diving, canyoning and trekking on Lykian road.You can also join yoga classes everyday during the stay. Turkish and Mediterranean dishes are made with mostly organic ingredients , which was picked from the garden and sourced from local organic farms and served at the hotel's restaurant. Vitamin bar provides fresh vegetable and fruit juices for detox. Antalya is 80 km from Olymposvillage and Cirali beach is within 3 km. free shuttle services to / from the beach is arranged once in every hour.",
+        "first_banner_title": "Why book with us?",
+        "first_banner_subtitle": "Your perfect stay starts here",
+        "highlights": [
+            {
+                "id": "0",
+                "title": "Restaurant",
+                "subtitle": "Enjoy authentic Turkish and Mediterranean flavors prepared with fresh, high-quality ingredients."
+            },
+            {
+                "id": "1",
+                "title": "Art & Philosophy Meet in Nature",
+                "subtitle": "Join us at the ecovillage for an inspiring blend of art and philosophy. Immerse yourself in creative and intellectual experiences through music workshops, painting and drawing sessions, sculpture and ceramics, and photography, film, and video training programs. A unique opportunity to learn, create, and connect in harmony with nature."
+            },
+            {
+                "id": "2",
+                "title": "Open Air Cinnema",
+                "subtitle": "Experience unforgettable movie nights under the stars at our open-air cinema—relax in comfortable seating and enjoy your favorite films on a giant screen"
+            },
+            {
+                "id": "3",
+                "title": "Groups & Events",
+                "subtitle": "Our ecovillage provides a unique setting for corporate events, family reunions, yoga camps, seminars, and other group gatherings. Surrounded by nature, we offer flexible spaces, comfortable accommodations, and a warm community atmosphere that makes every event memorable."
+            },
+            {
+                "id": "4",
+                "title": "Yoga Camp",
+                "subtitle": "We host yoga groups and we organize outdoor sports. Connect with your body and mind, surrounded by nature and positive energy—perfect for relaxation and renewing your well-being."
+            },
+            {
+                "id": "5",
+                "title": "Workshops",
+                "subtitle": "Join our workshops of experts to learn about health, mindful living, and applied philosophy, transforming daily habits."
+            }
+        ],
+        "second_banner_title": "Excellent Location",
+        "second_banner_subtitle": "Check the distances from our place",
+        "locations_olympos": [
+            {
+                "id": "0",
+                "title": "Olympos Beach"
+            },
+            {
+                "id": "1",
+                "title": "Phaselis Ancient City"
+            },
+            {
+                "id": "2",
+                "title": "Adrasan Bay"
+            },
+            {
+                "id": "3",
+                "title": "Cirali"
+            },
+            {
+                "id": "4",
+                "title": "Ancient city of Olympos"
+            },
+            {
+                "id": "5",
+                "title": "Antalya Airport"
+            }
+        ],
+        "third_banner_title": "Photo gallery",
+        "third_banner_subtitle": "Take a look",
+        "village": "The Village",
+        "restaurant": "The Restaurant",
+        "rooms": "The Rooms",
+        "olympos": "Around Olympos"
+    },
+    "rooms": [
+        {
+            "id": "0",
+            "subtitle": "ECO HOTEL",
+            "title": "Villa Bungalow",
+            "description": "Wooden house with one bedroom and a loft.",
+            "double_beds": "1 double-bed",
+            "single_beds": "1 single-bed",
+            "people": "3 people",
+            "button": "See more"
+        },
+        {
+            "id": "1",
+            "subtitle": "ECO HOTEL",
+            "title": "Two Bedroom Bungalow",
+            "description": "Wooden house with two bedrooms and a loft.",
+            "double_beds": "1 double-bed",
+            "single_beds": "3 single-bed",
+            "people": "5 people",
+            "button": "See more"
+        },
+        {
+            "id": "2",
+            "subtitle": "ECO HOTEL",
+            "title": "Room by the pool",
+            "description": "Wooden room by the pool.",
+            "double_beds": "1 double-bed",
+            "single_beds": "2 single-bed",
+            "people": "2 people",
+            "button": "See more"
+        }
+    ],
+    "room_1": {
+        "title": "Villa Bungalow",
+        "description": "Our cozy Finnish log house offers the perfect blend of comfort and nature. Designed with families in mind, it features one bedroom and a loft, ideal for children or extra guests. Inside, you’ll find modern amenities including a flat-screen TV, Wi-Fi, air conditioning, heating, and a contemporary bathroom for your convenience. Imported from Finland, this authentic log cabin combines natural charm with modern comfort, creating a warm and inviting stay for all ages.",
+        "double_beds": "1 double-bed",
+        "single_beds": "1 single-bed",
+        "people": "3 people",
+        "button": "Book Now",
+        "facilities_all": "Facilities",
+        "facilities": [
+            {
+                "id": "0",
+                "title": "Air Conditioner"
+            },
+            {
+                "id": "1",
+                "title": "Wi-Fi"
+            },
+            {
+                "id": "2",
+                "title": "Flat Screen TV"
+            },
+            {
+                "id": "3",
+                "title": "Audio System with Bluetooth"
+            },
+            {
+                "id": "4",
+                "title": "Heating"
+            },
+            {
+                "id": "5",
+                "title": "Wardrobe"
+            },
+            {
+                "id": "6",
+                "title": "Mini bar"
+            },
+            {
+                "id": "7",
+                "title": "Modern Bathroom"
+            },
+            {
+                "id": "8",
+                "title": "Sitting area in Balcony"
+            },
+            {
+                "id": "9",
+                "title": "Loft"
+            }
+        ],
+        "see_all_1": "See all",
+        "see_all_2": "accommodation",
+        "contact": "Contact us",
+        "contact_subtitle": "Get in touch and reserve your spot"
+    },
+    "room_2": {
+        "title": "Double Room Bungalow",
+        "description": "This spacious Finnish log house is ideal for families or small groups, comfortably accommodating up to 5 guests with two bedrooms and a loft. Designed with both style and comfort in mind, it features a flat-screen TV, high-speed Wi-Fi, air conditioning, heating, and a modern, fully equipped bathroom. Imported directly from Finland, the cabin combines authentic log house charm with contemporary amenities. Its warm and inviting atmosphere makes it perfect for relaxing after a day of exploring, while children will love the loft space and the cozy, natural surroundings.",
+        "double_beds": "1 double-bed",
+        "single_beds": "3 single-bed",
+        "people": "5 people",
+        "button": "Book Now",
+        "facilities_all": "Facilities",
+        "facilities": [
+            {
+                "id": "0",
+                "title": "Air Conditioner"
+            },
+            {
+                "id": "1",
+                "title": "Wi-Fi"
+            },
+            {
+                "id": "2",
+                "title": "Flat Screen TV"
+            },
+            {
+                "id": "3",
+                "title": "Audio System with Bluetooth"
+            },
+            {
+                "id": "4",
+                "title": "Heating"
+            },
+            {
+                "id": "5",
+                "title": "Wardrobe"
+            },
+            {
+                "id": "6",
+                "title": "Mini bar"
+            },
+            {
+                "id": "7",
+                "title": "Modern Bathroom"
+            },
+            {
+                "id": "8",
+                "title": "Sitting area in Balcony"
+            },
+            {
+                "id": "9",
+                "title": "Loft"
+            }
+        ],
+        "see_all_1": "See all",
+        "see_all_2": "accommodation",
+        "contact": "Contact us",
+        "contact_subtitle": "Get in touch and reserve your spot"
+    },
+    "room_3": {
+        "title": "Room by the Pool",
+        "description": "These charming log-style rooms are located right by the pool, offering a relaxing and convenient stay for two guests. Each room comes with either a double bed or two single beds, and includes modern comforts such as a flat-screen TV, Wi-Fi, air conditioning, heating, and a contemporary bathroom. Crafted from the same high-quality wood as our log houses, these rooms blend natural warmth with modern amenities, creating a cozy and inviting retreat for couples or friends.",
+        "description_1": "Photos are comming soon.",
+        "double_beds": "1 double-bed",
+        "single_beds": "2 single-bed",
+        "people": "2 people",
+        "button": "Book Now",
+        "facilities_all": "Facilities",
+        "facilities": [
+            {
+                "id": "0",
+                "title": "Air Conditioner"
+            },
+            {
+                "id": "1",
+                "title": "Wi-Fi"
+            },
+            {
+                "id": "2",
+                "title": "Flat Screen TV"
+            },
+            {
+                "id": "3",
+                "title": "Audio System with Bluetooth"
+            },
+            {
+                "id": "4",
+                "title": "Heating"
+            },
+            {
+                "id": "5",
+                "title": "Wardrobe"
+            },
+            {
+                "id": "6",
+                "title": "Mini bar"
+            },
+            {
+                "id": "7",
+                "title": "Modern Bathroom"
+            },
+            {
+                "id": "8",
+                "title": "Sitting area in Balcony"
+            },
+            {
+                "id": "9",
+                "title": "By the pool"
+            }
+        ],
+        "see_all_1": "See all",
+        "see_all_2": "accommodation",
+        "contact": "Contact us",
+        "contact_subtitle": "Get in touch and reserve your spot"
+    },
+    "activities": {
+        "title": "Activities & Adventure",
+        "tours": [
+            {
+                "id": "0",
+                "title": "Nature Hike",
+                "description": "On the Lycian Way, selected as one of the 10 most beautiful hiking trails in the world, we hike from Karaöz to Gelidonya Lighthouse. After enjoying a scenic tea/coffee and cake break, we return along the same route. The total distance is 7 km."
+            },
+            {
+                "id": "1",
+                "title": "Mountains Bike",
+                "description": "Experience the excitement of mountain biking through winding forest trails, hills, and scenic landscapes in the heart of Olympos."
+            },
+            {
+                "id": "2",
+                "title": "Boat Tour",
+                "description": "Comming soon"
+            },
+            {
+                "id": "3",
+                "title": "Sea Kayaking",
+                "description": "After breakfast at LikyaVillage, we walk through the ancient city of Olympos and then paddle with Wilderness System long-distance sea kayaks to arrive at the Genoese Bay, where we take a swimming break. Afterward, we continue paddling toward the other natural wonder, Sazak Bay. Following a stop at Sazak Bay, we return to Olympos. For groups who wish to continue along the same route to Adrasan and return by minibus, we also offer this option. All tours are conducted with a guide and a support boat."
+            },
+            {
+                "id": "4",
+                "title": "Phaselis ancient city",
+                "description_1": "Phaselis was one of the most important cities of the Lycian League. The Roman ruins are well preserved and the three harbors of the ancient city are used as beaches today. Phaselis is one of the most popular day trip destinations in the area with a natural bay and historical ruins. The word Phaselis means 'the place protected by Gods' in Ancient Greek. Most of the ruins in Phaselis date back to the Roman and Byzantine periods",
+                "description_2": "Here are some of the different parts of the ancient city you will see. Protection Walls: The walls surround the city from the sea to protect it from pirate attacks. Aqueducts: The length of the aqueduct is about 450 m. The Aqueducts are the oldest structures that have survived until today in Phaselis. Hadrian's Arch: The harbor street connects the middle and south harbors. Hadrian's Arch is located at the south entrance of the street. The fancy gate was built to welcome Roman Emperor Hadrian in AD 131. The support legs of Hadrian's Arch still remains in-situ on the main street. There is a dedication inscription to Hadrian on the architrave blocks of the arch. There is also an agora next to the south harbor. Read our article about Hadrian's Arch in Antalya Roman Baths: There are of two Roman bath complexes in Phaselis, one small and the other large. Both complexes date back to 3rd century and used the hypocaust system. Latrina: The Latrina is located to the north of the small bath and dates back to the 3rd century. Its floor is covered with mosaics.",
+                "description_3": "Theater: The small theater is characteristic of a typical Hellenistic Period theater. From the remains its possible to tell that the stage building was added during the Roman period. The Hellenistic theater dates back to 2nd century, although there is a large possibility that there was a theater here before this. It has the capacity to hold about 1,500 spectators. Basilica: Opposite the theater, you can see the remains of a small basilica that dates back to the Byzantine period. It's controversial whether the basilica here was a congregation or an episcopal church. Acropolis: The main goddess of the city was Athena, the Goddess of War and Wisdom. The Temple of Athena and some other important structures, that have not been found yet, are thought to be located on the acropolis hill today."
+            },
+            {
+                "id": "5",
+                "title": "Phaselis Beach",
+                "description_1": "Phaselis Beach is a great option for families with kids because it has shallow, warm water. There are 3 different bays: the North Bay, the Ancient Bay, and the South Bay. The geographer, Strabon, mentioned these harbors. The three beaches here were used as a ports in ancient times. If you dive, you can see the remains under the water. Make sure to bring a snorkel and mask when packing for Phaselis. North Bay: Is the first beach you'll see and is usually less crowded than the other two beaches. It has a pebbly sea and usually has more waves. Central Bay: Is the smallest bay with the least waves. It is also the safest bay because of the shallow water. South Bay: This is the only beach with sand and because of this it's usually the most crowded.",
+                "description_2": "From Likyavillage to Phaselis ancient city : 25 km ,30 minutes"
+            },
+            {
+                "id": "6",
+                "title": "Demre, Myra, and Kekova Sunken City Tour from Likyavillage",
+                "description_1": "St. Nicholas Monument Museum: The Church of St. Nicholas, also officially known as the St. Nicholas Monument Museum, is located in Demre and was built at the site where Saint Nicholas, believed to be Santa Claus, died. It is believed that after Santa Claus’s death, he was laid here for a while, and later his bones were taken to Bari by Italian sailors.",
+                "description_2": "Santa Claus is a legendary figure believed to leave gifts for children on Christmas Eve. His origins trace back to Bishop Nicholas, a Christian saint who lived in the 4th century in Demre (formerly Myra), Antalya. According to legend, Santa Claus lives at the North Pole with his wife.",
+                "description_3": "The Ancient City of Myra, located in the present-day Demre district and surrounding area, was established on the plain of the same name. The city had a navigable canal west of the Myros River (Demre River), connecting it to the sea. The Andriake (Çayağzı) Port, located on the other side of the canal, managed maritime trade and transportation for the region. Myra is especially famous for its Lycian rock tombs, Roman theater, and the Byzantine-era Church of St. Nicholas (Santa Claus).",
+                "description_4": "The rock tombs, Lycian inscriptions, and coins show that Myra has existed at least since the 5th century BCE. According to Strabo, Myra was one of the six major cities of the Lycian League and is referred to as Myrrh in Lycian inscriptions.",
+                "description_5": "The 2nd century CE was a period of great development for Myra. As the metropolis of the Lycian League, many buildings were constructed and restored with the support of wealthy Lycians. During the Byzantine period, Myra became a leading city both religiously and administratively. Its fame today is owed to Saint Nicholas, who became the bishop of the city in the 4th century CE and, after his death, was canonized and had a church built in his name.",
+                "description_6": "Kekova Sunken City – The Sunken City is located along the coast of Kekova Island. It is one of the historical Lycian cities that sank underwater due to earthquakes, and its ruins are still visible.",
+                "description_7": "Despite the allure of some of Turkey’s most beautiful bays and coves, the ancient Sunken City opposite Kaleköy attracts the most visitors to the Kekova region, with thousands arriving every year to marvel at the mysterious underwater site. Once a thriving community before an earthquake sadly decided its fate 2,000 years ago, now a stone staircase descending into the water is one of the only tangible indications that this ancient city ever existed."
+            }
+        ],
+        "tours_title": "ANCIENT CITY TOURS",
+        "about_1": "Explore &",
+        "about_2": "Discover",
+        "about_description": "Explore the breathtaking landscapes of Olympos and its surroundings with our adventure-packed activities. From guided trekking through ancient ruins and lush forests, to kayaking along pristine bays, mountain biking on scenic trails, and rejuvenating yoga sessions in nature, every experience is designed to connect you with the outdoors. Whether you seek adrenaline, relaxation, or a mix of both, our activities offer unforgettable moments for all levels of adventurers."
+    },
+    "restaurant": {
+        "subtitle": "TURKISH AND MEDITERRANEAN DISHES",
+        "about_subtitle": "RESTAURANT",
+        "about_title_1": "Turkish &",
+        "about_title_2": "Mediterranean",
+        "description_1": "In Olympos, Antalya, where history and natural beauty captivate every visitor, Time Café welcomes you within the peaceful atmosphere of Likya Village Hotel. Here, the fresh and healthy flavors of Mediterranean cuisine are served in harmony with nature.",
+        "description_2": "Olive oil dishes, local mezes prepared with fresh herbs, our own unique creations, and main courses inspired by the seafood of the Aegean and Mediterranean… all carefully crafted with daily, locally sourced ingredients. From our rich breakfast that begins with the first light of day, to light bites, sandwiches, and salads served throughout the day, and ending with romantic dinners, we promise a natural and refined culinary journey at every moment.",
+        "description_3": "Time Café is not just a restaurant; it is a place where time slows down, offering a unique experience in the enchanting nature of Olympos. Among the trees, by the poolside, we would be delighted to host you in this special setting.",
+        "button": "See menu",
+        "highlight_1_title": "Healthy",
+        "highlight_1_subtitle": "Wholesome meals prepared with fresh, natural ingredients.",
+        "highlight_2_title": "Traditional",
+        "highlight_2_subtitle": "Authentic recipes inspired by the rich flavors of the region.",
+        "highlight_3_title": "Nature",
+        "highlight_3_subtitle": "Surrounded by pine trees and the enchanting beauty of Olympos.",
+        "menu": "src/assets/English - Menu Time Cafe.pdf"
+    },
+    "contact": {
+        "title": "Contact us",
+        "highlight_1_title": "Call Us",
+        "highlight_1_subtitle": "Make a call for your general inquiries: +902428921088",
+        "highlight_2_title": "Email Us Us",
+        "highlight_2_subtitle": "likyavillage@gmail.com",
+        "highlight_3_title": "Whatsapp Us",
+        "highlight_3_subtitle": "+905336550606",
+        "title_form": "Send your message to us",
+        "subtitle_form": "Please feel free to get in touch using the form below. We are gonna respond you as soon as posible.",
+        "name": "Name",
+        "email": "Email address",
+        "phone": "Phone number",
+        "message": "Your message",
+        "message_example": "Leave your message here...",
+        "btn": "Send"
+    },
+    "footer": {
+        "address": "Address",
+        "contact": "Contact",
+        "book": "Book",
+        "book_subtitle": "Secure your spot for an unforgettable stay!",
+        "btn": "Reservation",
+        "privacy": "Privacy Policy"
+    }
+}

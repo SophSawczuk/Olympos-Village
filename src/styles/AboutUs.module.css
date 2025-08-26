@@ -1,16 +1,18 @@
 .Banner {
     background-image: url(C:\Users\sofis\Documents\olymposvillage\src\images\hotel.jpg);
-      height: 50vh;
+    height: 50vh;
     width: 99vw;
     margin-top: 20vh;
     background-size: cover;
-  background-position: center 40%;
-  background-repeat: no-repeat;
-  display: flex;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    display: flex;
     align-items: center;
     justify-content: center;
-      background-color: rgba(0, 0, 0, 0.25); /* oscurece con negro */
-  background-blend-mode: darken; /* mezcla la imagen con el color */
+    background-color: rgba(0, 0, 0, 0.25);
+    /* oscurece con negro */
+    background-blend-mode: darken;
+    /* mezcla la imagen con el color */
 }
 
 .Banner img {
@@ -23,6 +25,7 @@
     width: transform(99vw - 120px);
     padding: 60px;
 }
+
 .Pool {
     width: 50vh;
     height: 50vh;
@@ -32,12 +35,12 @@
 
 .ContentOlymposVillage {
     width: 50vw;
-        margin-left: 50px;
+    margin-left: 50px;
 }
 
-.ContentOlymposVillage h3{
+.ContentOlymposVillage h3 {
     color: #D2AB80;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.2em;
     margin-bottom: 0;
 
@@ -53,7 +56,7 @@
 
 
 .ContentOlymposVillage {
-     width: 80%;
+    width: 80%;
     color: #2D2D2D;
     font-size: larger;
 }
@@ -63,9 +66,11 @@
     display: flex;
 
 }
+
 .WrapperStoneBuilding {
-     margin-right: 2em;
+    margin-right: 2em;
 }
+
 .StoneBuildingImg {
     width: 40vw;
     height: 70vh;
@@ -73,8 +78,9 @@
     line-height: 0;
     object-fit: cover;
     object-position: center 80%;
-   /*  margin-left: 2em; */
+    /*  margin-left: 2em; */
 }
+
 .Kayak {
     height: 40%;
     width: 40vw;
@@ -87,25 +93,29 @@
     width: 40vw;
     object-fit: cover;
 }
+
 .StoneBuilding {
 
     text-align: right;
     padding-left: 15%;
-   
+
 }
+
 .StoneBuilding h4 {
     color: #725C3A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
-    margin-top: 2em; 
+    margin-top: 2em;
 }
+
 .StoneBuilding h2 {
     color: #E5E0D8;
     font-size: 3em;
     margin: 0;
     line-height: 1.3em;
 }
+
 .StoneBuilding p {
     color: #2D2D2D;
     font-size: larger;
@@ -118,6 +128,7 @@
     justify-content: center;
     padding: 5vh 0 5vh 0;
 }
+
 .WhyBookWithUsBanner h2 {
     color: #E5E0D8;
     font-size: 3em;
@@ -126,41 +137,48 @@
 
 
 }
+
 .WhyBookWithUsBanner h3 {
     color: #725C3A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin-bottom: 0;
     margin-top: 0;
 
 }
+
 .WhyBookWithUsGrid {
     display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-  grid-template-rows: repeat(2, auto);   /* 2 filas automáticas */
-  gap: 20px; /* espacio entre los elementos (opcional) */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas iguales */
+    grid-template-rows: repeat(2, auto);
+    /* 2 filas automáticas */
+    gap: 5px;
+    /* espacio entre los elementos (opcional) */
     background-color: white;
-    padding: 5vh 10vw 5vh 10vw;
+    padding: 5vh 2em 5vh 2em;
 }
 
 .WhyBookWithUsCard {
     background-color: white;
     color: #725C3A;
-    width: 25vw;
+    width: 30vw;
     text-align: center;
     justify-self: center;
 }
+
 .WhyBookWithUsCard img {
     height: 50px;
 }
+
 .WhyBookWithUsCard h4 {
     margin: 1em 0 1em 0;
     font-size: large;
 }
 
-.WhyBookWithUsCard p {
-    padding: 0 5vw 0 5vw;
-}
+/* .WhyBookWithUsCard p {
+    /* padding: 0 5vw 0 5vw; 
+} */
 
 .BannerUbication {
     width: 99vw;
@@ -168,8 +186,9 @@
     text-align: center;
     justify-content: center;
     padding: 5vh 0 5vh 0;
-    
+
 }
+
 .BannerUbication h2 {
     color: #E5E0D8;
     font-size: 3em;
@@ -188,9 +207,10 @@
     width: 40px;
     height: 40px;
 }
+
 .SubtitleUbicationBanner h3 {
     color: #725C3A;
-    font-weight:500;
+    font-weight: 500;
     font-size: 1.5em;
     margin: 0 0.5em 0 0.5em;
 
@@ -198,33 +218,40 @@
 
 .WrapperNearPlaces {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-    grid-template-rows: repeat(2, auto);   /* 2 filas automáticas */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas iguales */
+    grid-template-rows: repeat(2, auto);
+    /* 2 filas automáticas */
 }
 
 
 .CardNearPlaces1 {
-    background-image: 
-        linear-gradient(
-            to top, 
-            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
-            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
-            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
-        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\center-of-activities.jpg) ;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,
+            /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%
+            /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\center-of-activities.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
 }
+
 .CardNearPlaces2 {
-    background-image: 
-        linear-gradient(
-            to top, 
-            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
-            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
-            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
-        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\adrasan.jpg) ;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,
+            /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%
+            /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\phaselis.png);
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -233,55 +260,66 @@
 }
 
 .CardNearPlaces3 {
-    background-image: 
-        linear-gradient(
-            to top, 
-            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
-            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
-            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
-        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\adrasan-bay.jpg) ;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,
+            /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%
+            /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\adrasan-bay.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
 }
+
 .CardNearPlaces4 {
-    background-image: 
-        linear-gradient(
-            to top, 
-            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
-            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
-            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
-        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\kumluca.jpeg) ;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,
+            /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%
+            /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\kumluca.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
 }
+
 .CardNearPlaces5 {
-    background-image: 
-        linear-gradient(
-            to top, 
-            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
-            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
-            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
-        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\ANTALYA.jpg) ;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,
+            /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%
+            /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\ANTALYA.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
 }
+
 .CardNearPlaces6 {
-    background-image: 
-        linear-gradient(
-            to top, 
-            rgba(0, 0, 0, 0.8) 0%,      /* negro semitransparente abajo */
-            rgba(0, 0, 0, 0.3) 30%,     /* empieza a aclararse */
-            rgba(0, 0, 0, 0) 50%        /* totalmente transparente a mitad de imagen */
-        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\airport.jpg) ;
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            /* negro semitransparente abajo */
+            rgba(0, 0, 0, 0.3) 30%,
+            /* empieza a aclararse */
+            rgba(0, 0, 0, 0) 50%
+            /* totalmente transparente a mitad de imagen */
+        ), url(C:\Users\sofis\Documents\olymposvillage\src\images\airport.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center;
@@ -297,9 +335,11 @@
     margin-bottom: 0;
     font-size: 1.3em;
 }
+
 .WrapperNearPlaces p {
     margin-top: 0;
 }
+
 .MapMarker {
     color: black;
 }
@@ -312,7 +352,7 @@
 }
 
 .PhotoBanner h2 {
-     color: #E5E0D8;
+    color: #E5E0D8;
     font-size: 3em;
     margin: 0;
     margin-bottom: 2px;
@@ -334,12 +374,26 @@
 .ImgColumn1 {
     width: calc(50vw - 2.7em);
 }
+
 .ImgColumn1:hover {
     cursor: pointer;
 }
 
+.Ciudad {
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 2em;
+    margin: -2em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    position: relative;
+    width: fit-content;
+}
+
 .Column2 {
-     width: calc(50vw - 2.6em);
+    width: calc(50vw - 2.6em);
 }
 
 /* MODAL */
@@ -349,94 +403,154 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    z-index: 9999; /* Asegura que esté por encima del resto del contenido */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    z-index: 9999;
+    /* Asegura que esté por encima del resto del contenido */
     object-fit: contain;
 }
 
 .ModalOverlay img {
-    max-width: 100%; /* Imagen nunca será más ancha que el contenedor */
-    max-height: 100%; /* Imagen nunca será más alta que el contenedor */
-    width: auto; /* Mantiene proporción al escalar horizontalmente */
-    height: auto; /* Mantiene proporción al escalar verticalmente */
-    border-radius: 5px; /* Opcional: esquinas redondeadas */
-    object-fit: contain; /* Asegura que toda la imagen se vea sin recortes */
+    max-width: 100%;
+    /* Imagen nunca será más ancha que el contenedor */
+    max-height: 100%;
+    /* Imagen nunca será más alta que el contenedor */
+    width: auto;
+    /* Mantiene proporción al escalar horizontalmente */
+    height: auto;
+    /* Mantiene proporción al escalar verticalmente */
+    border-radius: 5px;
+    /* Opcional: esquinas redondeadas */
+    object-fit: contain;
+    /* Asegura que toda la imagen se vea sin recortes */
 }
 
 .CloseModalBtn {
-    position:absolute;
-   top: 1em;
-   right: 1em;
-   font-size: 3em;
-   color: white;
-   cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
 }
 
 
 @media (max-width: 768px) {
-   
+    .Banner {
+        width: 100vw;
+    }
+
     .OlymposVillage {
         display: flex;
         flex-direction: column;
         background-color: white;
+        width: calc(100vw - 4em);
+        padding: 2em 2em 2em 2em;
     }
-   
+
     .Pool {
-        width: 80vw;
+        width: calc(100vw - 4em);
         height: 40vh;
     }
+
     .ContentOlymposVillage {
         margin: 0;
         width: 100%;
     }
+
     .StoneBuilding {
         display: flex;
         flex-direction: column;
         padding: 0;
     }
-   
+
     .WrapperStoneBuilding {
         padding-left: 2em;
         margin-bottom: 2em;
     }
+
     .StoneBuildingImg {
         width: 100%;
         height: 40vh;
     }
+
     .WhyBookWithUsBanner {
         width: 100%;
     }
+
     .WhyBookWithUsBanner h2 {
         font-size: 2em;
     }
+
     .WhyBookWithUsBanner h3 {
         font-size: 1em;
     }
+
     .WhyBookWithUsGrid {
-        grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
-        grid-template-rows: repeat(3, auto);  
+        grid-template-columns: repeat(2, 1fr);
+        /* 3 columnas iguales */
+        grid-template-rows: repeat(3, auto);
     }
+
     .WhyBookWithUsCard {
         width: 100%;
     }
+
     .BannerUbication {
         width: 100%;
     }
+
     .BannerUbication h2 {
         font-size: 2em;
     }
+
     .BannerUbication h3 {
         font-size: 1em;
     }
+
     .SubtitleUbicationBanner img {
         height: 25px;
         width: 25px;
     }
+
     .WrapperNearPlaces {
-        grid-template-columns: repeat(2, 1fr); /* 3 columnas iguales */
-        grid-template-rows: repeat(3, auto);   /* 2 filas automáticas */
+        grid-template-columns: repeat(2, 1fr);
+        /* 3 columnas iguales */
+        grid-template-rows: repeat(3, auto);
+        /* 2 filas automáticas */
+    }
+
+    .WrapperNearPlaces h4 {
+        font-size: 1em;
+    }
+
+    .PhotoBanner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PhotoBanner h2 {
+        font-size: 2em;
+    }
+
+    .TheVillagePhotos {
+        display: flex;
+        flex-direction: column;
+        width: calc(100vw - 4em);
+    }
+
+    .ImgColumn1 {
+        width: calc(100vw - 4em);
+    }
+
+    .Ciudad {
+        font-size: 1.5em;
+        margin-top: -4em;
     }
 }

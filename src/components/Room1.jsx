@@ -15,108 +15,162 @@ import hairdryer from "../images/hair-dryer.png"
 import terrace from "../images/terrace.png"
 import wardrobe from "../images/wardrobe.png"
 import minibar from "../images/minibar.png"
+import { useState } from "react"
+import exit from "../images/equis.png"
+import foward from "../images/arrow-foward.png"
+import backward from "../images/arrow-backward.png"
+import room1 from "../images/one-bedroom.jpeg"
+import room2 from "../images/one-bedroom-1.jpeg"
+import room3 from "../images/one-bedroom-2.jpeg"
+import room4 from "../images/one-bedroom-3.jpeg"
+import loft from "../images/loft.png"
+import pool from "../images/pool.png"
+import heating from "../images/heating.png"
+import audio from "../images/audio.png"
+import shower from "../images/bathroom.png"
+import { useTranslation } from 'react-i18next'
 
-export default function Room1( ) {
-    return(
+
+export default function Room1() {
+    const [modalOpen, setModalOpen] = useState(false);
+    const [pic, setPic] = useState()
+
+    const images = [room4, room3, room1, room2]; // Array con tus imágenes
+    const openModal = (index) => {
+        setCurrentIndex(index)
+        setModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalOpen(false);
+    };
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const { t } = useTranslation()
+    const facilities = t("room_1.facilities", { returnObjects: true });
+
+    return (
         <div>
             <div className={style.Banner}>
-                <h1>Villa Bungalow</h1>
+                <h1>{t("room_1.title")}</h1>
             </div>
             <div className={style.Content}>
                 <div className={style.Gallery}>
-                    <img src={bed1} className={style.MainImg}/>
+                    <img src={room4} className={style.MainImg} onClick={() => { openModal(0) }} />
                     <div className={style.SecondaryImages}>
-                        <img src={bed2} className={style.SecondaryImg}/>
-                        <img src={village} className={style.SecondaryImg}/>
-                        <img src={hotel} className={style.SecondaryImg}/>
+                        <img src={room3} className={style.SecondaryImg} onClick={() => { openModal(1) }} />
+                        <img src={room1} className={style.SecondaryImg} onClick={() => { openModal(2) }} />
+                        <img src={room2} className={style.SecondaryImg} onClick={() => { openModal(3) }} />
                     </div>
                 </div>
+                {
+                    modalOpen && (
+                        <div className={style.ModalOverlay}>
+                            <img src={exit} onClick={() => { closeModal() }} className={style.CloseModalBtn} />
+                            <img src={backward}
+                                onClick={() =>
+                                    setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1)
+                                }
+                                className={style.Backward}
+                            />
+                            <img src={images[currentIndex]} className={style.ModalImgMobile} />
+                            <img src={foward}
+                                onClick={() =>
+                                    setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1)
+                                }
+                                className={style.Foward}
+
+                            />
+                        </div>
+
+                    )
+                }
 
                 <div className={style.Description}>
-                    <h3>Villa Bungalow</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in sapien viverra, molestie urna nec, suscipit enim. Pellentesque interdum semper sapien a dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in sapien viverra, molestie urna nec, suscipit enim. Pellentesque interdum semper sapien a dapibus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in sapien viverra, molestie urna nec, suscipit enim. Pellentesque interdum semper sapien a dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in sapien viverra, molestie urna nec, suscipit enim. Pellentesque interdum semper sapien a dapibus.</p>
+                    <h3>{t("room_1.title")}</h3>
+                    <p>{t("room_1.description")}</p>
                     <div className={style.QuickLook}>
                         <div className={style.Block}>
                             <div className={style.SmallBlock}>
-                                <img src={area}/>
-                                <p>40m²</p>
+                                <img src={area} />
+                                <p>37m²</p>
                             </div>
                             <div className={style.SmallBlock}>
-                                <img src={doublebed}/>
-                                <p>1 double-bed</p>
+                                <img src={doublebed} />
+                                <p>{t("room_1.double_beds")}</p>
                             </div>
                         </div>
                         <div className={style.Block}>
                             <div className={style.SmallBlock}>
-                                <img src={singlebed}/>
-                                <p>2 single-bed</p>
+                                <img src={singlebed} />
+                                <p>{t("room_1.single_beds")}</p>
                             </div>
                             <div className={style.SmallBlock}>
-                                <img src={person}/>  
-                                <p>4 people</p>
+                                <img src={person} />
+                                <p>{t("room_1.people")}</p>
                             </div>
                         </div>
                     </div>
-                    <Link to="/room-1"><button className={style.Btn}>Book Now</button></Link>
+                    <Link to="/contact"><button className={style.Btn}>{t("room_1.button")}</button></Link>
                 </div>
             </div>
             <div className={style.SecondBanner}>
-                <h2>Facilities</h2>
+                <h2>{t("room_1.facilities_all")}</h2>
             </div>
             <div className={style.Facilities}>
                 <div className={style.Facility}>
-                    <img src={airconditioner}/>
-                    <h4>Air Conditioner</h4>
+                    <img src={airconditioner} />
+                    <h4>{facilities[0].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={wifi}/>
-                    <h4>Internet</h4>
+                    <img src={wifi} />
+                    <h4>{facilities[1].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={tv}/>
-                    <h4>TV LCD</h4>
+                    <img src={tv} />
+                    <h4>{facilities[2].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={hairdryer}/>
-                    <h4>Hair dryer</h4>
+                    <img src={audio} />
+                    <h4>{facilities[3].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={terrace}/>
-                    <h4>Private Terrace</h4>
+                    <img src={heating} />
+                    <h4>{facilities[4].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={wardrobe}/>
-                    <h4>Wardrobe</h4>
+                    <img src={wardrobe} />
+                    <h4>{facilities[5].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={minibar}/>
-                    <h4>Minibar</h4>
+                    <img src={minibar} />
+                    <h4>{facilities[6].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={airconditioner}/>
-                    <h4>Air Conditioner</h4>
+                    <img src={shower} />
+                    <h4>{facilities[7].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={airconditioner}/>
-                    <h4>Air Conditioner</h4>
+                    <img src={terrace} />
+                    <h4>{facilities[8].title}</h4>
                 </div>
                 <div className={style.Facility}>
-                    <img src={airconditioner}/>
-                    <h4>Air Conditioner</h4>
+                    <img src={loft} />
+                    <h4>{facilities[9].title}</h4>
                 </div>
             </div>
             <div className={style.Navigation}>
                 <Link to={"/rooms"}><div className={style.NavAccommodation}>
                     <div>
-                        <h3>See all</h3>
-                    <h3>accommodation</h3>
+                        <h3>{t("room_1.see_all_1")}</h3>
+                        <h3>{t("room_1.see_all_2")}</h3>
                     </div>
                 </div> </Link>
                 <Link to={"/contact"}><div className={style.NavContact}>
                     <div>
-                        <h3>Contact us</h3>
-                    <p>Get in touch and reserve your spot</p>
+                        <h3>{t("room_1.contact")}</h3>
+                        <p>{t("room_1.contact_subtitle")}</p>
                     </div>
                 </div></Link>
             </div>
