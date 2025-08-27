@@ -18,6 +18,8 @@ export default function Home() {
         <div>
             <div className={style.Landing}>
                 <h1 className={style.Title}>{t("home.landing_title")} </h1>
+                <h1 className={style.Seo}>Likya Village</h1>
+                <h2 className={style.Seo}>Likya Village - Luxury Hotel in Olympos, Antalya, Turkey</h2>
             </div>
             <div className={style.TheVillage}>
                 <img src={hotel} alt="Hotel in Olympos, Antyala" className={style.Village} />

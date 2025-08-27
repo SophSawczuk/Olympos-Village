@@ -230,11 +230,17 @@
 
     .Columna1 {
         width: 100%;
+        height: fit-content;
 
     }
 
     .ImageAdventure {
         width: 100vw;
         height: auto;
+    }
+
+    .ActivitieImg {
+        height: fit-content;
+        object-fit: contain;
     }
 }

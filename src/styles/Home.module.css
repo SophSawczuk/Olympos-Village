@@ -1,4 +1,15 @@
 /* ----LANNDING----- */
+.Seo {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+}
 
 .Landing {
     width: 99vw;
@@ -47,6 +58,7 @@
 
 .WrapperVillage {
     padding-left: 2em;
+    width: calc(100vw - 2em);
 }
 
 .WrapperVillage h4 {
@@ -92,7 +104,7 @@
 }
 
 .Accommodation img {
-    width: 33.33333vw;
+    width: 33vw;
     height: 80vh;
     object-fit: cover;
     filter: brightness(69%);
@@ -124,6 +136,7 @@
 .Restaurant {
     background-color: #E5E0D8;
     display: flex;
+
 }
 
 .RestoImg {
@@ -281,7 +294,7 @@
     }
 
     .WrapperVillage {
-        width: 100vw;
+        width: calc(100vw - 2em);
     }
 
     .WrapperVillage button {
@@ -294,6 +307,10 @@
 
     .Accommodation {
         width: 100vw;
+    }
+
+    .Accommodation img {
+        width: 33.333333vw;
     }
 
     .AccommodationImages {
