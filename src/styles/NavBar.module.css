@@ -1,7 +1,10 @@
 .Wrapper {
     display: block;
     position: fixed;
-    z-index: 2;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .Logo {
@@ -9,12 +12,16 @@
     width: 100vw;
     background-color: #E5E0D8;
     text-align: center;
-
+    display: flex;
+    /* centrar con flex en vez de text-align */
+    justify-content: center;
+    align-items: center;
 }
 
 .Logo img {
     height: 8vh;
     padding-top: 1vh;
+    pointer-events: auto;
 }
 
 .NavBar {

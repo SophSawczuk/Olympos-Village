@@ -7,7 +7,7 @@ import person from "../images/person.png"
 import hotel from "../images/hotel.jpg"
 import doublebedfoto from "../images/double-bed.png"
 import { Link } from "react-router-dom"
-import poolroom from "../images/pool-hotel.png"
+import poolroom from "../images/pool-hotel.jpg"
 import { useTranslation } from 'react-i18next'
 
 

@@ -29,7 +29,7 @@ import heating from "../images/heating.png"
 import audio from "../images/audio.png"
 import shower from "../images/bathroom.png"
 import plan from "../images/architecture-plan.jpeg"
-import poolroom from "../images/pool-hotel.png"
+import poolroom from "../images/pool-hotel.jpg"
 import { useTranslation } from 'react-i18next'
 
 

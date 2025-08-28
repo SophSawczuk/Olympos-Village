@@ -14,7 +14,7 @@
 .Landing {
     width: 99vw;
     margin-top: 20vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\pool-hotel.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\sofis\Documents\olymposvillage\src\images\pool-hotel.jpg);
     height: 80vh;
     object-fit: cover;
     background-size: cover;
@@ -42,6 +42,7 @@
     /*    letter-spacing: 15px; */
     letter-spacing: 5px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white !important;
 }
 
 /* -------THE VILLAGE------- */

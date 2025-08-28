@@ -39,7 +39,10 @@ export default function NavBar() {
     return (
         <div className={style.Wrapper}>
             <div className={style.Logo}>
-                <Link to="/"><img src={Logo} alt="Likya Village Logo" onClick={(e) => closeMenuWithLogo(e)} /></Link>
+                <Link to="/">
+                    <img src={Logo} alt="Likya Village Logo" onClick={(e) => closeMenuWithLogo(e)} />
+
+                </Link>
             </div>
             <div>
                 <div className={style.NavBar}>

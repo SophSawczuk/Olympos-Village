@@ -10,6 +10,7 @@ import hiking from "../images/hiking.jpg"
 /* --------------------- */
 import { Link } from "react-router-dom"
 import { useTranslation } from 'react-i18next'
+import resto from "../images/resto1.jpeg"
 
 export default function Home() {
     const { t } = useTranslation()
@@ -40,7 +41,7 @@ export default function Home() {
                 </div>
             </div>
             <div className={style.Restaurant}>
-                <img src={restaurant} alt="Restaurant in Olympos, Antyala" className={style.RestoImg} />
+                <img src={resto} alt="Restaurant in Olympos, Antyala" className={style.RestoImg} />
                 <div className={style.WrapperRestaurant}>
                     <h4>{t("home.restaurant_subtitle")}</h4>
                     <h2>{t("home.restaurant_title_1")}</h2>
