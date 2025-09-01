@@ -41,7 +41,7 @@ export default function Footer() {
                     <div className={style.WrapperAddress}>
                         <p>P: +90 (242) 8921088</p>
                         <p>+90 (533) 6550606</p>
-                        <p>E: likyavillage@gmail.com</p>
+                        <p>E: info@likyavillage.com</p>
                     </div>
                 </div>
                 <div className={style.Book}>

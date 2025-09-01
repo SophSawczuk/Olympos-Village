@@ -6,6 +6,8 @@ import whatsapp from "../images/whatsapp.png"
 import { useState } from "react"
 import Swal from "sweetalert2"
 import { useTranslation } from 'react-i18next'
+import emailjs from '@emailjs/browser';
+
 
 export default function Contact() {
 
@@ -50,10 +52,10 @@ export default function Contact() {
             })
         }
         else {
-            /*  emailjs.sendForm('service_x9qa78n', 'template_i858qck', e.target, 'qqNBv-ncC62HiS998' )
-                 .then(response => console.log(response))
-                 .catch(error => console.log(error))
-  */
+            emailjs.sendForm('service_7zvshge', 'template_jppjctl', e.target, 'Rc4HvkwJmlJbyGBKL')
+                .then(response => console.log(response))
+                .catch(error => console.log(error))
+
             Swal.fire({
                 icon: 'success',
                 title: 'Success',
