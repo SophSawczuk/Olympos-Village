@@ -11,9 +11,12 @@ import hiking from "../images/hiking.jpg"
 import { Link } from "react-router-dom"
 import { useTranslation } from 'react-i18next'
 import resto from "../images/resto1.jpeg"
+/* --------Loader------ */
+import { useEffect, useState } from "react";
 
 export default function Home() {
     const { t } = useTranslation()
+
 
     return (
         <div>

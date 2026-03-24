@@ -12,12 +12,18 @@ import ScrollToTop from "./assets/ScrollToTop";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Room2 from "./components/Room2";
 import Room3 from "./components/Room3";
+import { useLoading } from "./context/LoadingContext";
 
 function App() {
+
+  const { loading } = useLoading();
+
   return (
     <>
+      {loading && <FullScreenLoader />}
       <NavBar />
       <ScrollToTop />
+
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
